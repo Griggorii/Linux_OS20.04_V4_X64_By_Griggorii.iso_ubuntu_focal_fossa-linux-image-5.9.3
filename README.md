@@ -28,7 +28,7 @@ NVD7 это GF117M на свободном xorg-nouveau драйвере при 
 
 Griggorii@gmail.com только настоящие технологии bitcoin support real technology new fix 1Fps612daCcb7vYN2bFDRoDuUnrjJESDmk thanks wayland session perfomance ! , X11 session better hignt perfomance ! calculator-> wayland + perfomance stable mesa gui = X11 hignt perfomance session !
 
-По нашему это означает что если ваиланд сессия работает быстро то здоровье иксовой сессии становится еще выше и скоростнее такой у меня подход к настройке и пере конфигурированию в моей системе расширения находятся в папке /usr/share/gnome-shell/extensions на данный момент не работает GPaste так что можно сделать sudo rm -rf /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org
+По нашему это означает что если ваиланд сессия работает быстро то здоровье иксовой сессии становится еще выше и скоростнее такой у меня подход к настройке и пере конфигурированию в моей системе расширения находятся в папке /usr/share/gnome-shell/extensions на данный момент не работает GPaste так что можно сделать sudo rm -rf /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org в иксовой сессии выполните в терминале plank --preferences и вы можете убрать конфликт панелей переместив plank вниз тогда авто скрытие верха будет только при развертке окна или приложения во весь экран.
 
 Nvidia autoconfig run support notebook optimus , nvidia all laptop desktop support nvidia autoconfig , not recommended generate xorg file nvidia auto onli
 
