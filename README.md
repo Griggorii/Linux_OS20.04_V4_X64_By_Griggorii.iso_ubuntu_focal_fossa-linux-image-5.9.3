@@ -66,23 +66,14 @@ systemd─┬─ModemManager───2*[{ModemManager}]
         │         ├─2*[at-spi-bus-laun─┬─dbus-daemon]
         │         │                    └─3*[{at-spi-bus-laun}]]
         │         ├─2*[at-spi2-registr───2*[{at-spi2-registr}]]
-        │         ├─chromium-browse─┬─chromium-browse───chromium-browse───10*[{+
-        │         │                 ├─chromium-browse───chromium-browse─┬─5*[ch+
-        │         │                 │                                   ├─3*[ch+
-        │         │                 │                                   ├─chrom+
-        │         │                 │                                   └─chrom+
-        │         │                 ├─chromium-browse───7*[{chromium-browse}]
-        │         │                 ├─chromium-browse───6*[{chromium-browse}]
-        │         │                 └─25*[{chromium-browse}]
         │         ├─2*[dbus-daemon]
         │         ├─dbus-launch
         │         ├─dconf-service───2*[{dconf-service}]
         │         ├─gjs───6*[{gjs}]
         │         ├─gnome-session-b─┬─gsd-disk-utilit───2*[{gsd-disk-utilit}]
         │         │                 ├─indicator-messa───3*[{indicator-messa}]
-        │         │                 ├─nemo-desktop─┬─nemo─┬─mousepad───4*[{mous+
-        │         │                 │              │      └─4*[{nemo}]
-        │         │                 │              └─8*[{nemo-desktop}]
+        │         │                 ├─nemo-desktop─┬─nemo───4*[{nemo}]
+        │         │                 │              └─9*[{nemo-desktop}]
         │         │                 └─3*[{gnome-session-b}]
         │         ├─gnome-session-c───{gnome-session-c}
         │         ├─gnome-shell─┬─Xwayland───12*[{Xwayland}]
@@ -146,6 +137,7 @@ systemd─┬─ModemManager───2*[{ModemManager}]
         ├─udisksd───4*[{udisksd}]
         ├─upowerd───2*[{upowerd}]
         └─wpa_supplicant
+
 
 
 
