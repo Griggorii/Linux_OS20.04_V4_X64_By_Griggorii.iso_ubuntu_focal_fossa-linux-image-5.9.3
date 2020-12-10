@@ -35,5 +35,117 @@ Nvidia autoconfig run support notebook optimus , nvidia all laptop desktop suppo
 Данный дистрибутив использует пакет собранных мной дрйверов https://github.com/Griggorii/mesa-20.1.5_v3_ubuntu-19.04-20.04-20.10_X86_64_graphics в получения именно такого ядра так же поучаствовали своего рода инклюдами для новго ядра благодаря чему ядро собралось именно под эти видео драйвера и не будет конфликтовать если не делать резких движении с хорг конфигами , а точнее вообще их не делать так же перебилдены такие пакеты как glib посколько надо что бы он обернул драйвера для лучшей работо способности https://github.com/Griggorii/glibc-2.31_all.deb_package_version_gcc-10-full_ubuntu_20.04_focal_fossa перебилденный pulseaudio https://github.com/Griggorii/pulseaudio_13.99.1-1ubuntu3.5-ubuntu-focal-20.04 gdm3 https://github.com/Griggorii/gdm3_3.34.1-1ubuntu1-run-keyboard-test-deb-package busybox https://github.com/Griggorii/busybox-1.30.1-deb-package-ubuntu-20.04-ubuntu-20.10 частично добавленны некоторые библиотеки из так же перебилденного llvm-10 на более старой системе 16.04 где на борту был ещё только python3.5 https://github.com/Griggorii/llvm-10-tools где ранее на нём же была опробована сразу же сборка предоставляемых в тарболе драйверов mesa. Все клавиши переназначены допустим снимок экрана shift+f7 , shift+f6 настройки , посмотреть переназначения в терминале: gnome-control-center keyboard , был получен c сверх тяжелого перебилда новый python3.8.5 https://github.com/Griggorii/python3.8.5_ubuntu_20.04_new_rebuild_amd64.deb теперь он идет в поставке.
 
 
+griggorii@test:~/Рабочий стол
+$ /usr/bin/pstree
+systemd─┬─ModemManager───2*[{ModemManager}]
+        ├─NetworkManager───2*[{NetworkManager}]
+        ├─accounts-daemon───2*[{accounts-daemon}]
+        ├─acpid
+        ├─atd
+        ├─avahi-daemon───avahi-daemon
+        ├─bluetoothd
+        ├─bumblebeed
+        ├─colord───2*[{colord}]
+        ├─cron
+        ├─cups-browsed───2*[{cups-browsed}]
+        ├─cupsd
+        ├─dbus-daemon
+        ├─f2b/server───4*[{f2b/server}]
+        ├─gdm3─┬─gdm-session-wor─┬─gdm-wayland-ses─┬─gnome-session-b───2*[{gnom+
+        │      │                 │                 └─2*[{gdm-wayland-ses}]
+        │      │                 └─2*[{gdm-session-wor}]
+        │      └─2*[{gdm3}]
+        ├─gnome-keyring-d───3*[{gnome-keyring-d}]
+        ├─irqbalance───{irqbalance}
+        ├─networkd-dispat
+        ├─polkitd───2*[{polkitd}]
+        ├─rsyslogd───3*[{rsyslogd}]
+        ├─rtkit-daemon───2*[{rtkit-daemon}]
+        ├─switcheroo-cont───2*[{switcheroo-cont}]
+        ├─systemd─┬─(sd-pam)
+        │         ├─2*[at-spi-bus-laun─┬─dbus-daemon]
+        │         │                    └─3*[{at-spi-bus-laun}]]
+        │         ├─2*[at-spi2-registr───2*[{at-spi2-registr}]]
+        │         ├─chromium-browse─┬─chromium-browse───chromium-browse───10*[{+
+        │         │                 ├─chromium-browse───chromium-browse─┬─5*[ch+
+        │         │                 │                                   ├─3*[ch+
+        │         │                 │                                   ├─chrom+
+        │         │                 │                                   └─chrom+
+        │         │                 ├─chromium-browse───7*[{chromium-browse}]
+        │         │                 ├─chromium-browse───6*[{chromium-browse}]
+        │         │                 └─25*[{chromium-browse}]
+        │         ├─2*[dbus-daemon]
+        │         ├─dbus-launch
+        │         ├─dconf-service───2*[{dconf-service}]
+        │         ├─gjs───6*[{gjs}]
+        │         ├─gnome-session-b─┬─gsd-disk-utilit───2*[{gsd-disk-utilit}]
+        │         │                 ├─indicator-messa───3*[{indicator-messa}]
+        │         │                 ├─nemo-desktop─┬─nemo─┬─mousepad───4*[{mous+
+        │         │                 │              │      └─4*[{nemo}]
+        │         │                 │              └─8*[{nemo-desktop}]
+        │         │                 └─3*[{gnome-session-b}]
+        │         ├─gnome-session-c───{gnome-session-c}
+        │         ├─gnome-shell─┬─Xwayland───12*[{Xwayland}]
+        │         │             ├─gufw───gufw-pkexec───python3─┬─WebKitNetworkP+
+        │         │             │                              ├─WebKitWebProce+
+        │         │             │                              └─7*[{python3}]
+        │         │             ├─ibus-daemon─┬─ibus-engine-sim───2*[{ibus-engi+
+        │         │             │             ├─ibus-extension-───3*[{ibus-exte+
+        │         │             │             ├─ibus-memconf───2*[{ibus-memconf+
+        │         │             │             └─2*[{ibus-daemon}]
+        │         │             └─14*[{gnome-shell}]
+        │         ├─gnome-terminal-─┬─bash───pstree
+        │         │                 └─4*[{gnome-terminal-}]
+        │         ├─goa-daemon───3*[{goa-daemon}]
+        │         ├─goa-identity-se───2*[{goa-identity-se}]
+        │         ├─gsd-a11y-settin───3*[{gsd-a11y-settin}]
+        │         ├─gsd-color───3*[{gsd-color}]
+        │         ├─gsd-datetime───3*[{gsd-datetime}]
+        │         ├─gsd-housekeepin───3*[{gsd-housekeepin}]
+        │         ├─gsd-keyboard───3*[{gsd-keyboard}]
+        │         ├─gsd-media-keys───3*[{gsd-media-keys}]
+        │         ├─gsd-power───3*[{gsd-power}]
+        │         ├─gsd-print-notif───2*[{gsd-print-notif}]
+        │         ├─gsd-printer───2*[{gsd-printer}]
+        │         ├─gsd-rfkill───2*[{gsd-rfkill}]
+        │         ├─gsd-screensaver───2*[{gsd-screensaver}]
+        │         ├─gsd-sharing───3*[{gsd-sharing}]
+        │         ├─gsd-smartcard───4*[{gsd-smartcard}]
+        │         ├─gsd-sound───3*[{gsd-sound}]
+        │         ├─gsd-usb-protect───3*[{gsd-usb-protect}]
+        │         ├─gsd-wacom───3*[{gsd-wacom}]
+        │         ├─gsd-wwan───3*[{gsd-wwan}]
+        │         ├─gsd-xsettings───3*[{gsd-xsettings}]
+        │         ├─gvfs-afc-volume───3*[{gvfs-afc-volume}]
+        │         ├─gvfs-goa-volume───2*[{gvfs-goa-volume}]
+        │         ├─gvfs-gphoto2-vo───2*[{gvfs-gphoto2-vo}]
+        │         ├─gvfs-mtp-volume───2*[{gvfs-mtp-volume}]
+        │         ├─gvfs-udisks2-vo───3*[{gvfs-udisks2-vo}]
+        │         ├─gvfsd───2*[{gvfsd}]
+        │         ├─gvfsd─┬─gvfsd-dnssd───2*[{gvfsd-dnssd}]
+        │         │       ├─gvfsd-network───3*[{gvfsd-network}]
+        │         │       ├─gvfsd-recent───2*[{gvfsd-recent}]
+        │         │       ├─gvfsd-trash───2*[{gvfsd-trash}]
+        │         │       └─2*[{gvfsd}]
+        │         ├─2*[gvfsd-fuse───5*[{gvfsd-fuse}]]
+        │         ├─gvfsd-metadata───2*[{gvfsd-metadata}]
+        │         ├─ibus-portal───2*[{ibus-portal}]
+        │         ├─ibus-x11───2*[{ibus-x11}]
+        │         ├─obexd
+        │         ├─pulseaudio─┬─gsettings-helpe───3*[{gsettings-helpe}]
+        │         │            └─4*[{pulseaudio}]
+        │         ├─sbscheduler
+        │         ├─seahorse───3*[{seahorse}]
+        │         ├─xdg-permission-───2*[{xdg-permission-}]
+        │         └─xfconfd───2*[{xfconfd}]
+        ├─systemd-journal
+        ├─systemd-logind
+        ├─systemd-resolve
+        ├─systemd-timesyn───{systemd-timesyn}
+        ├─systemd-udevd
+        ├─udisksd───4*[{udisksd}]
+        ├─upowerd───2*[{upowerd}]
+        └─wpa_supplicant
+
 
 
