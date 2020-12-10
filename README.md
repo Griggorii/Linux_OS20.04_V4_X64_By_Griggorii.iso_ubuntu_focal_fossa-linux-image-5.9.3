@@ -136,6 +136,162 @@ systemd─┬─ModemManager───2*[{ModemManager}]
         ├─udisksd───4*[{udisksd}]
         ├─upowerd───2*[{upowerd}]
         └─wpa_supplicant
+        
+        
+############## Configuration file for h264enc ##############
+#
+# Version: 19 - do not modify or remove this line!
+#
+# This file is used by the h264enc script and contains the
+# paths to the programs needed for its correct operation.
+# The user can use it to modify the path to the various programs
+# in case one or more of these programs is not in a standard location
+# and connot be found by the system. It can also be used in
+# case the user has multiple executables of the same program but
+# wants to use a specific executable for the job.
+# Note that this file cannot be used to store encoding settings
+# or other parameters! They will be ignored. Everything after
+# a # sign is a comment.
+#
+# The EDITOR variable is used to set the preferred text editor for
+# editing the config file through the terminal. It defaults to the
+# nano text editor.
+#
+# The ALLOW_* variables can be used to enable or disable specific
+# audio/video filters and containers. Setting a variable to 'n' will
+# skip asking questions about the specific filter/container.
+#
+# The DEFOUTPUT variable can be used to provide a custom output directory
+# for your encodes. If left empty, h264enc defaults to your home
+# directory for output. If set, h264enc checks for it and will create
+# the directory if it's not present. The DEFOUTPUT variable can be
+# overwritten on the command line, meaning that if it's set but the
+# user provides a path on the command line, that path will be used
+# instead.
+#
+# The TEMPDIR variable below can be used to change the location
+# of the temporary directory used by h264enc. If unset, h264enc
+# will default to /home/username/.h264enc/job<PID>
+# If used, you must provide the full path to a directory. If the
+# directory is missing, h264enc will create it.
+#
+# The MPLAYEROPTS variable can be used to set other mplayer options.
+# Be careful which options you use as they may introduce problems
+# when using the script.
+#
+# The PRIORITY variable is used to set a 'nice' value for the encoding
+# process. The values one can use are between -20 and 19 where -20
+# will give the highest possible priority and 19 the least favorable
+# one. Please note that only root can set/use a negative nice value.
+# Regular users can only use/set values 0 to 19. If the variable is
+# empty, then the default nice value of 0 is used. If the variable
+# contains a negative value but the script is ran with normal user
+# privileges, h264enc will print a notice and exit.
+#
+# The DVD_DEVICE and CDROM_DEVICE variables can be used to specify a
+# preferred device to encode from. Note that only block devices are
+# supported in these variables. CDROM_DEVICE is used for (S)VCD encoding
+#
+# h264enc can also send mails if configured to do so. There are four
+# variables that need to be set in the mail settings below:
+# MAILNOTIFY    # Enable/disable sending mail with y or n
+# EMAIL         # The recepient's email address
+# MAILSUBJ      # The mail's subject
+# MAILMSG       # The actual mail message
+#
+# There is no need to add date/time to your email message as this is
+# being done automatically.
+#
+# h264enc uses the 'mail' program which reads the mail settings from
+# /home/username/.mailrc. If there's no such file present or it is
+# configured incorrectly, mail sending will fail. A gmail example
+# settings for .mailrc can look like this:
+#
+# set smtp-use-starttls
+# set smtp=smtp://smtp.gmail.com:587
+# set smtp-auth=login
+# set smtp-auth-user=your-email@gmail.com
+# set smtp-auth-password=your-password
+#
+
+
+EDITOR="nano"
+
+# Video filters
+ALLOW_VID_DEINTERLACE="y"
+ALLOW_VID_INTERLACE="y"
+ALLOW_VID_DEBLOCK="y"
+ALLOW_VID_DELOGO="y"
+ALLOW_VID_DENOISE="y"
+ALLOW_VID_NOISE="y"
+ALLOW_VID_DEBAND="y"
+ALLOW_VID_UNSHARP="y"
+ALLOW_VID_BRIGHTNESS="y"
+ALLOW_VID_EQUALIZER="y"
+ALLOW_VID_AUTOCROP="n"
+ALLOW_VID_FPS_CONVERSION="y"
+ALLOW_VID_SCALER_TUNING="n"
+ALLOW_VID_DSIZE="y"
+ALLOW_VID_EXPAND="y"
+ALLOW_VID_COLORSPACE="n"
+ALLOW_VID_ASPECT="y"
+
+# Audio filters
+ALLOW_AUD_CHANNELS="y"
+ALLOW_AUD_RESAMPLE="y"
+ALLOW_AUD_NORMALIZE="y"
+ALLOW_AUD_VOLUME="y"
+ALLOW_AUD_EQUALIZER="y"
+ALLOW_AUD_PAN="y"
+
+# Containers
+ALLOW_MKV_MUXING="y"
+ALLOW_MP4_MUXING="y"
+ALLOW_TS_MUXING="y"
+ALLOW_OGM_MUXING="y"
+
+# Misc
+ALLOW_SAMPLE_ENCODING="y"
+ALLOW_SCAN_MULTIPLE_VIDSTREAMS="y"
+ALLOW_SCAN_MULTIPLE_AUDSTREAMS="y"
+
+# Script/mplayer settings
+DEFOUTPUT=""
+TEMPDIR=""
+PRIORITY="10"
+MPLAYEROPTS="-noconfig all -loop 1"
+DVD_DEVICE=""
+CDROM_DEVICE=""
+
+# Mail settings
+MAILNOTIFY="n"
+EMAIL=""
+MAILSUBJ="[h264enc]: Encoding finished"
+MAILMSG="This is a notification mail from the h264enc script to inform you that encoding has finished."
+
+# Paths to executables
+MPLAYER="/usr/bin/mplayer"
+MENCODER="/usr/bin/mencoder"
+X264="/usr/bin/x264"
+LSDVD="/usr/bin/lsdvd"
+DVDXCHAP="/usr/bin/dvdxchap"
+
+MP4BOX="/usr/bin/MP4Box"
+MKVMERGE="/usr/bin/mkvmerge"
+OGMMERGE="/usr/bin/ogmmerge"
+TSMUXER=""
+
+OGGENC="/usr/bin/oggenc"
+FLAC=""
+NEROAACENC=""
+AACPLUSENC=""
+FAAC="/usr/bin/faac"
+
+MAIL="/usr/bin/mail"
+BC="/usr/bin/bc"
+PV="/usr/bin/pv"
+DD="/usr/bin/dd"        
+        
 
 
 
