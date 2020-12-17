@@ -15,13 +15,17 @@ ________________________________________________________________________________
 Griggorii example zsync server download iso my reos structure performance beta
 
 $ urlbase=http://cdimage.ubuntu.com/ubuntu-server/daily-live/current
+
 $ isoname=$(distro-info -d)-live-server-$(dpkg --print-architecture).iso
+
 $ zsync ${urlbase}/${hirsute-hirsute-live-server-amd64.iso}.zsync
 
 Griggorii example zsync desktop download
 
 $ urlbase=http://cdimage.ubuntu.com/daily-live/20201215
+
 $ isoname=$(distro-info -d)-live-server-$(dpkg --print-architecture).iso
+
 $ zsync ${urlbase}/${hirsute-hirsute-desktop-amd64.iso}.zsync
 
 _____________________________________________________________________________________________________________________
