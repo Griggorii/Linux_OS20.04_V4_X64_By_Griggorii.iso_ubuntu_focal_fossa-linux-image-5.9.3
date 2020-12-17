@@ -12,7 +12,7 @@ Sync test OS https://github.com/CanonicalLtd/subiquity command
 ___________________________________________________________________________________________________________________
 Для разработки не относится к обычным пользователям так что пропустите этот текст который от верхней линии до нижней
 
-Griggorii example zsync server download iso my reos structure performance beta
+Griggorii example zsync server and desktop download iso my reos structure performance beta
 
 $ urlbase=http://cdimage.ubuntu.com/ubuntu-server/daily-live/current
 
