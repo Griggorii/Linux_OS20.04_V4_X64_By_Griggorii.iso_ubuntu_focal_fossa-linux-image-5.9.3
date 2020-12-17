@@ -7,7 +7,7 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
-Sync test OS https://github.com/CanonicalLtd/subiquity
+Sync test OS https://github.com/CanonicalLtd/subiquity command $ zsync ${urlbase}/${hirsute-hirsute-live-server-amd64.iso}.zsync
 
 Переключение языка виртуальной клавиатуры при входе в gdm3 win-super+space вообщем теперь можете пароль перебить на любой язык хоть на русский и менять вин + пробел раскладку для набора пароля даже на русском.
 
