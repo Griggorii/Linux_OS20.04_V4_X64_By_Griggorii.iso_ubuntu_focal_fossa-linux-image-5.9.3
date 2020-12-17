@@ -7,9 +7,10 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
+___________________________________________________________________________________________________________________
+
 Sync test OS https://github.com/CanonicalLtd/subiquity command 
 
-___________________________________________________________________________________________________________________
 Для разработки не относится к обычным пользователям так что пропустите этот текст который от верхней линии до нижней
 
 Griggorii example zsync server and desktop download iso my reos structure performance beta
