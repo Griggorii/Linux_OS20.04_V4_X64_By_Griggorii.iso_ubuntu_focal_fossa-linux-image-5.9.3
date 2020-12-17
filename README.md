@@ -7,7 +7,24 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
-Sync test OS https://github.com/CanonicalLtd/subiquity command $ zsync ${urlbase}/${hirsute-hirsute-live-server-amd64.iso}.zsync
+Sync test OS https://github.com/CanonicalLtd/subiquity command 
+
+___________________________________________________________________________________________________________________
+Для разработки не относится к обычным пользователям так что пропустите этот текст который от верхней линии до нижней
+
+Griggorii example zsync server download iso my reos structure performance beta
+
+$ urlbase=http://cdimage.ubuntu.com/ubuntu-server/daily-live/current
+$ isoname=$(distro-info -d)-live-server-$(dpkg --print-architecture).iso
+$ zsync ${urlbase}/${hirsute-hirsute-live-server-amd64.iso}.zsync
+
+Griggorii example zsync desktop download
+
+$ urlbase=http://cdimage.ubuntu.com/daily-live/20201215
+$ isoname=$(distro-info -d)-live-server-$(dpkg --print-architecture).iso
+$ zsync ${urlbase}/${hirsute-hirsute-desktop-amd64.iso}.zsync
+
+_____________________________________________________________________________________________________________________
 
 Переключение языка виртуальной клавиатуры при входе в gdm3 win-super+space вообщем теперь можете пароль перебить на любой язык хоть на русский и менять вин + пробел раскладку для набора пароля даже на русском.
 
