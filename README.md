@@ -7,33 +7,9 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
-___________________________________________________________________________________________________________________
-
-Sync test OS https://github.com/CanonicalLtd/subiquity command 
-
-Для разработки не относится к обычным пользователям так что пропустите этот текст который от верхней линии до нижней
-
-Griggorii example zsync server and desktop download iso my reos structure performance beta
-
-$ urlbase=http://cdimage.ubuntu.com/ubuntu-server/daily-live/current
-
-$ isoname=$(distro-info -d)-live-server-$(dpkg --print-architecture).iso
-
-$ zsync ${urlbase}/${hirsute-hirsute-live-server-amd64.iso}.zsync
-
-Griggorii example zsync desktop download
-
-$ urlbase=http://cdimage.ubuntu.com/daily-live/20201215
-
-$ isoname=$(distro-info -d)-live-server-$(dpkg --print-architecture).iso
-
-$ zsync ${urlbase}/${hirsute-hirsute-desktop-amd64.iso}.zsync
-
-_____________________________________________________________________________________________________________________
-
 Переключение языка виртуальной клавиатуры при входе в gdm3 win-super+space вообщем теперь можете пароль перебить на любой язык хоть на русский и менять вин + пробел раскладку для набора пароля даже на русском.
 
-Установку делайте пока без efi раздела дело в том что туда за место специалистов забрались те кто не понимает как он устроен там должен быть grub который называется ubuntu по адресу /efi/EFI/ubuntu и в него сложены текстовый груб-grub.cfg и grubx64.efi , а кто то сделал что теперь папка называется не ubuntu со всем содержимым , а grub какая то воина дистрибутивов лишь бы загрузочную часть не назвать ubuntu.
+Установку делайте пока без efi раздела дело в том что туда за место специалистов забрались те кто не понимает типа торвальдса либо но можно попробовать выделить под efi раздел не как ранее 100 Mb , а целых 500 Mb или 1 Gb то как он устроен там должен быть grub который называется ubuntu по адресу /efi/EFI/ubuntu и в него сложены текстовый груб-grub.cfg и grubx64.efi , а кто то сделал что теперь папка называется не ubuntu со всем содержимым , а grub какая то воина дистрибутивов лишь бы загрузочную часть не назвать ubuntu. Вообщем пробовать выделяя не менее 500 метров благодаря засунувшим нос в эту часть и увеличив ее до такого разжирения ефи.
 
 Monitor убрать авторосположение иконок:https://www.youtube.com/watch?v=J7HbQ246W7s
 
@@ -57,6 +33,30 @@ Griggorii@gmail.com только настоящие технологии bitcoin
 Nvidia autoconfig run support notebook optimus , nvidia all laptop desktop support nvidia autoconfig , not recommended generate xorg file nvidia auto onli
 
 Данный дистрибутив использует пакет собранных мной дрйверов https://github.com/Griggorii/mesa-20.1.5_v3_ubuntu-19.04-20.04-20.10_X86_64_graphics в получения именно такого ядра так же поучаствовали своего рода инклюдами для новго ядра благодаря чему ядро собралось именно под эти видео драйвера и не будет конфликтовать если не делать резких движении с хорг конфигами , а точнее вообще их не делать так же перебилдены такие пакеты как glib посколько надо что бы он обернул драйвера для лучшей работо способности https://github.com/Griggorii/glibc-2.31_all.deb_package_version_gcc-10-full_ubuntu_20.04_focal_fossa перебилденный pulseaudio https://github.com/Griggorii/pulseaudio_13.99.1-1ubuntu3.5-ubuntu-focal-20.04 gdm3 https://github.com/Griggorii/gdm3_3.34.1-1ubuntu1-run-keyboard-test-deb-package busybox https://github.com/Griggorii/busybox-1.30.1-deb-package-ubuntu-20.04-ubuntu-20.10 частично добавленны некоторые библиотеки из так же перебилденного llvm-10 на более старой системе 16.04 где на борту был ещё только python3.5 https://github.com/Griggorii/llvm-10-tools где ранее на нём же была опробована сразу же сборка предоставляемых в тарболе драйверов mesa. Все клавиши переназначены допустим снимок экрана shift+f7 , shift+f6 настройки , посмотреть переназначения в терминале: gnome-control-center keyboard , был получен c сверх тяжелого перебилда новый python3.8.5 https://github.com/Griggorii/python3.8.5_ubuntu_20.04_new_rebuild_amd64.deb теперь он идет в поставке.
+
+___________________________________________________________________________________________________________________
+
+Sync test OS https://github.com/CanonicalLtd/subiquity command 
+
+Для разработки не относится к обычным пользователям так что пропустите этот текст который от верхней линии до нижней
+
+Griggorii example zsync server and desktop download iso my reos structure performance beta
+
+$ urlbase=http://cdimage.ubuntu.com/ubuntu-server/daily-live/current
+
+$ isoname=$(distro-info -d)-live-server-$(dpkg --print-architecture).iso
+
+$ zsync ${urlbase}/${hirsute-hirsute-live-server-amd64.iso}.zsync
+
+Griggorii example zsync desktop download
+
+$ urlbase=http://cdimage.ubuntu.com/daily-live/20201215
+
+$ isoname=$(distro-info -d)-live-server-$(dpkg --print-architecture).iso
+
+$ zsync ${urlbase}/${hirsute-hirsute-desktop-amd64.iso}.zsync
+
+_____________________________________________________________________________________________________________________
 
 griggorii@GriggoriiX64:
 $ /usr/bin/pstree
