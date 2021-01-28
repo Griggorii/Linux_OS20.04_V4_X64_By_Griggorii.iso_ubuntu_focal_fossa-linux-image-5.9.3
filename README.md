@@ -7,6 +7,8 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Install iso restore systemback onli ! not job ubiqlity ! efi memory minimum 512 Mb
 
+press super win find systemback run install
+
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
 Переключение языка виртуальной клавиатуры при входе в gdm3 win-super+space вообщем теперь можете пароль перебить на любой язык хоть на русский и менять вин + пробел раскладку для набора пароля даже на русском.
