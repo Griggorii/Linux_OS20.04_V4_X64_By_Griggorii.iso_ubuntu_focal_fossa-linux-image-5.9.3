@@ -3,7 +3,7 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Распространяется с mit лицензией ввиду того что содержит пропирти вещи такие как zfs , nvidia и другое ПО.
 
-# ISO DOWNLOAD: 
+# ISO DOWNLOAD: https://yadi.sk/d/UG1vu0QGHlsOyA
 
 Install iso restore systemback onli ! not job ubiqlity ! efi memory minimum 512 Mb
 
