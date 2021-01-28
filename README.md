@@ -3,11 +3,9 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Распространяется с mit лицензией ввиду того что содержит пропирти вещи такие как zfs , nvidia и другое ПО.
 
-# ISO DOWNLOAD: https://yadi.sk/d/8hTcz7FdkDiB3Q
+# ISO DOWNLOAD: 
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
-
-New rebuild libc https://github.com/Griggorii/glibc-2.31_all.deb_package_version_gcc-10-full_ubuntu_20.04_focal_fossa
 
 Переключение языка виртуальной клавиатуры при входе в gdm3 win-super+space вообщем теперь можете пароль перебить на любой язык хоть на русский и менять вин + пробел раскладку для набора пароля даже на русском.
 
