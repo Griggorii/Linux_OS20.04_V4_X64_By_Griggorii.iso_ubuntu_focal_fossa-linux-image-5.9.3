@@ -7,8 +7,6 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
-Install new graphics mesa LLVMpipe 11.0 https://github.com/Griggorii/Linux_OS20.04_V4_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.9.3/releases/tag/Wayland
-
 New rebuild libc https://github.com/Griggorii/glibc-2.31_all.deb_package_version_gcc-10-full_ubuntu_20.04_focal_fossa
 
 Переключение языка виртуальной клавиатуры при входе в gdm3 win-super+space вообщем теперь можете пароль перебить на любой язык хоть на русский и менять вин + пробел раскладку для набора пароля даже на русском.
