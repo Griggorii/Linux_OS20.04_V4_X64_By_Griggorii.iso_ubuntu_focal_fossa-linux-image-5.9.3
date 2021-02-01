@@ -7,7 +7,7 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Install iso restore systemback onli ! not job ubiqlity !
 
-Steam programm and game fix rm -rf ~/.ssh ~/.ssh2
+Steam programm and game fix disable block ports firewall d zone $$rm -rf ~/.ssh ~/.ssh2
 
 press super win find systemback run install
 
