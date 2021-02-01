@@ -11,6 +11,8 @@ press super win find systemback run install
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
+Canvas fix lag tearing browser s chrome , chromium , opera , brave https://chrome.google.com/webstore/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd
+
 Переключение языка виртуальной клавиатуры при входе в gdm3 win-super+space вообщем теперь можете пароль перебить на любой язык хоть на русский и менять вин + пробел раскладку для набора пароля даже на русском.
 
 Monitor убрать авторосположение иконок:https://www.youtube.com/watch?v=J7HbQ246W7s
