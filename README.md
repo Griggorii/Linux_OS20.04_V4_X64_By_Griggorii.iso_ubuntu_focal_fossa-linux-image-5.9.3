@@ -5,7 +5,9 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 # ISO DOWNLOAD: https://yadi.sk/d/UG1vu0QGHlsOyA
 
-Install iso restore systemback onli ! not job ubiqlity ! efi memory minimum 512 Mb
+Install iso restore systemback onli ! not job ubiqlity !
+
+Steam programm and game fix rm ~/.ssh
 
 press super win find systemback run install
 
