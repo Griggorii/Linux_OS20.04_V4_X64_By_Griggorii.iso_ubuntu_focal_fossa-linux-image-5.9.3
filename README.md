@@ -5,11 +5,9 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 # ISO DOWNLOAD: 
 
-Install iso restore systemback onli ! not job ubiqlity !
+Install iso bodhibuilder | install not reboot fuck torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
 Steam programm and game fix disable block ports firewall d zone $$rm -rf ~/.ssh ~/.ssh2
-
-press super win find systemback run install
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
