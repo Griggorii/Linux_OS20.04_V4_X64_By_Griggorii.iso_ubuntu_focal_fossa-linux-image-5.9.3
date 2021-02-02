@@ -5,7 +5,9 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 # ISO DOWNLOAD: 
 
-Install iso bodhibuilder | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
+En: Install iso bodhibuilder | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
+
+Ru: Установить с помощью bodhibuilder | после не перезагружаться и заити в раздел esp efi удалить там папку ubuntu , а папку linux переименовать в удаленную до этого ubuntu / не знаю кто виноват мне кажется торвальд бегает со своим кде лишь бы убунту в ефи не торчало.
 
 Run system terminal root command : apt install -f
 
