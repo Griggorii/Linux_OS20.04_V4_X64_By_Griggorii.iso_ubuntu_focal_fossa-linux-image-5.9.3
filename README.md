@@ -3,7 +3,7 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Распространяется с mit лицензией ввиду того что содержит пропирти вещи такие как zfs , nvidia и другое ПО.
 
-# ISO DOWNLOAD: 
+# ISO DOWNLOAD: https://yadi.sk/d/etIIKoU9_tDHQQ
 
 En: Install iso bodhibuilder | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
