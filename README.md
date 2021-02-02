@@ -14,6 +14,8 @@ Run system terminal root command : apt install -f
 
 Steam programm and game fix disable block ports firewall d zone $$rm -rf ~/.ssh ~/.ssh2
 
+Chromium browser run session wayland
+
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
 Kernel fast support zfs-yes , nvidia-not , snapd-not , anbox-not , virtualbox-not https://github.com/Griggorii/linux-image-5.9.3_amd64.deb_light_zstd_ultra_fast_kernel_memory_super_low ядро будет доработано как будут получены инвестиции из бюджета или другими способами мирового стартапа сорцов в свободном доступе именно этого смерженного ядра нету нигде в мире и даже у торвальдсаочень легкое ядро все работает мгновенно и никакой выход из сессии не подвисает исключена сигнатура что наверное и дает такую мощную производительность.
