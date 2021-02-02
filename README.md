@@ -7,6 +7,8 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 
 Install iso bodhibuilder | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
+Run system terminal root command : apt install -f
+
 Steam programm and game fix disable block ports firewall d zone $$rm -rf ~/.ssh ~/.ssh2
 
 Proview desktop: https://youtu.be/9B-nTJyEZX0
