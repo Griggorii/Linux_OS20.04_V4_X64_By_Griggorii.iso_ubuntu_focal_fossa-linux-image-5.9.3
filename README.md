@@ -10,7 +10,7 @@ En: Install iso bodhibuilder | install not reboot moron torvalds efi , live cd o
 Ru: Установить с помощью bodhibuilder | после не перезагружаться и заити в раздел esp efi удалить там папку ubuntu , а папку linux переименовать в удаленную до этого ubuntu / не знаю кто виноват мне кажется торвальд бегает со своим кде лишь бы убунту в ефи не торчало , а линукс который не загружается в ефи у норм людей.
 Не забываем напомнить этому дебичу его тупик и популизировать мой дистрибутив что бы он получил суппорта для инвестирования из других стран раз в моей пока монетезируют только приближенных царю да свите , а нам такая несправедливость не нужна по скольку надо очень хорошую систему и не астру и не базальт. Напомню после вмешательства в efi исчезла возможность его поставить на раздел меньшего размера чем 512 Мегабайт и появилась ефи библиотека которой ранее не было наверное была сгенерирована рандомно при декодировании-декомпеляции.
 
-Run system terminal root command : apt install -f
+Run system terminal root command : apt install -f && rm -rf /usr/share/doc/libexif12/changelog.Debian.gz /usr/share/doc/libgd3/changelog.Debian.gz
 
 Steam programm and game fix disable block ports firewall d zone $$rm -rf ~/.ssh ~/.ssh2
 
