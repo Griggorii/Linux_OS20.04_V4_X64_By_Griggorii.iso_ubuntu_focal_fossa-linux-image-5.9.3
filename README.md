@@ -5,11 +5,11 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 $ sudo rm -rf ~/.gnupg ~/.pk ~/.ssh ~/.ssh2 ~/.wgetrc и переустановите сертификаты от мозилы и других проваидеров свободы. Firefox установмте кому надо мне не нужен по скольку работает без санд бокса в итоге может оказаться не безопасен.
 _________________________________________________________________________________________________________________________________________________________________
 
-# ISO DOWNLOAD: https://disk.yandex.ru/d/N30AiJna8Za9SA
+# ISO DOWNLOAD: new
 
-Linux_OS20.04_X64_V5_WINE_Griggorii.iso.sha256 2d060b5862ab4f48d7ba17831185c6e3cff0a507e10f70e6c6c3c21595c035ef 
+Linux_OS20.04_X64_V5_WINE_Griggorii.iso.sha256 6fe3c62807b8536be0047786c667e7c78ff51fafc6af6bbdc8dafa1f9160882d 
 
-Linux_OS20.04_X64_V5_WINE_Griggorii.iso.md5 bbd3a9c1ab1e5ccb89a40f7c616f9c00
+Linux_OS20.04_X64_V5_WINE_Griggorii.iso.md5 2f239f84edc77e2ce9c33aa957ecee86
 
 En: Install iso bodhibuilder ignore bad boot next | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
