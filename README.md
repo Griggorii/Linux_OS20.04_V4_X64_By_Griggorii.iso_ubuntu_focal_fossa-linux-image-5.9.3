@@ -15,8 +15,6 @@ En: Install iso bodhibuilder ignore bad boot next | install not reboot moron tor
 
 Run system terminal root command : apt install -f && rm -rf /usr/share/doc/libexif12/changelog.Debian.gz /usr/share/doc/libgd3/changelog.Debian.gz
 
-Update my video driver stack: https://github.com/Griggorii/Linux_OS20.04_V5_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem/releases/tag/Wayland
-
 ________________________________________________________________________________________________________________________________________________________________
 
 Если появится ниже следующая проблема то лучше завести флешку с reefind чем решать теперь проблему созданную разработчиками которой ранее не наблюдалось в версии 19.10 , reefind найдет ядро и после немного ожидания и система поидет на старт.
