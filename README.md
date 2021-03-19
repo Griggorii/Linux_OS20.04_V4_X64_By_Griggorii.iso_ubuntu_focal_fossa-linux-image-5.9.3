@@ -11,7 +11,7 @@ Linux_OS20.04_X64_V5_WINE_Griggorii.iso.sha256 6fe3c62807b8536be0047786c667e7c78
 
 Linux_OS20.04_X64_V5_WINE_Griggorii.iso.md5 2f239f84edc77e2ce9c33aa957ecee86
 
-Steam programm and game fix disable block ports firewall d zone $$ sudo rm -rf ~/.ssh ~/.ssh2
+Steam game programm and game disable block ports firewall d zone command $$ sudo rm -rf ~/.ssh ~/.ssh2
 
 En: Install iso bodhibuilder ignore bad boot next | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
