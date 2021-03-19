@@ -15,7 +15,7 @@ Steam game programm and game disable block ports firewall d zone command $$ sudo
 
 En: Install iso bodhibuilder ignore bad boot next | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
-Run system terminal sudo delete root folder 5.6.0 kernel recommended command : apt install -f && rm -rf /usr/share/doc/libexif12/changelog.Debian.gz /usr/share/doc/libgd3/changelog.Debian.gz /root
+Run system terminal sudo delete root folder 5.6.0 kernel recommended command  :sudo apt install -f && sudo rm -rf /usr/share/doc/libexif12/changelog.Debian.gz && sudo rm -rf  /usr/share/doc/libgd3/changelog.Debian.gz /root
 
 Canvas fix lag tab tearing browser s chrome , chromium , opera , brave https://chrome.google.com/webstore/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd run setting disable notify youtube , twitch.tw , twitter or other sites.
 
