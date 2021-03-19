@@ -13,7 +13,7 @@ Linux_OS20.04_X64_V5_WINE_Griggorii.iso.md5 2f239f84edc77e2ce9c33aa957ecee86
 
 En: Install iso bodhibuilder ignore bad boot next | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
-Run system terminal root command : apt install -f && rm -rf /usr/share/doc/libexif12/changelog.Debian.gz /usr/share/doc/libgd3/changelog.Debian.gz
+Run system terminal sudo delete root folder 5.6.0 kernel recommended command : apt install -f && rm -rf /usr/share/doc/libexif12/changelog.Debian.gz /usr/share/doc/libgd3/changelog.Debian.gz /root
 
 Canvas fix lag tab tearing browser s chrome , chromium , opera , brave https://chrome.google.com/webstore/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd run setting disable notify youtube , twitch.tw , twitter or other sites.
 
