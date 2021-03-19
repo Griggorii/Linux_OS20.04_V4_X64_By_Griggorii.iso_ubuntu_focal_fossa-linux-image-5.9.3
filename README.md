@@ -5,7 +5,7 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 $ sudo rm -rf ~/.gnupg ~/.pk ~/.ssh ~/.ssh2 ~/.wgetrc и переустановите сертификаты от мозилы и других проваидеров свободы. Firefox установите кому надо мне не нужен по скольку работает без санд бокса в итоге может оказаться не безопасен.
 _________________________________________________________________________________________________________________________________________________________________
 
-# ISO DOWNLOAD: https://disk.yandex.ru/d/7QZpIupO9N9MGQ
+# ISO DOWNLOAD: https://disk.yandex.ru/d/7QZpIupO9N9MGQ пока не скачиваем установка сломана только разве посмотреть на сколько быстро запускается qt4
 
 Linux_OS20.04_X64_V5_WINE_Griggorii.iso.sha256 6fe3c62807b8536be0047786c667e7c78ff51fafc6af6bbdc8dafa1f9160882d 
 
