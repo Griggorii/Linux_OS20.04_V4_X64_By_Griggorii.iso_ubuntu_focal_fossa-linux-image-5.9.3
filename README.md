@@ -26,8 +26,6 @@ Ru: Установить с помощью bodhibuilder игнорировать
 
 Run system terminal root command : apt install -f && rm -rf /usr/share/doc/libexif12/changelog.Debian.gz /usr/share/doc/libgd3/changelog.Debian.gz
 
-Update my video driver stack: https://github.com/Griggorii/Linux_OS20.04_V5_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem/releases/tag/Wayland
-
 ________________________________________________________________________________________________________________________________________________________________
 
 Steam programm and game fix disable block ports firewall d zone $$rm -rf ~/.ssh ~/.ssh2
