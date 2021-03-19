@@ -15,6 +15,8 @@ En: Install iso bodhibuilder ignore bad boot next | install not reboot moron tor
 
 Run system terminal root command : apt install -f && rm -rf /usr/share/doc/libexif12/changelog.Debian.gz /usr/share/doc/libgd3/changelog.Debian.gz
 
+Canvas fix lag tab tearing browser s chrome , chromium , opera , brave https://chrome.google.com/webstore/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd run setting disable notify youtube , twitch.tw , twitter or other sites.
+
 ________________________________________________________________________________________________________________________________________________________________
 
 Если появится ниже следующая проблема то лучше завести флешку с reefind чем решать теперь проблему созданную разработчиками которой ранее не наблюдалось в версии 19.10 , reefind найдет ядро и после немного ожидания и система поидет на старт.
@@ -35,8 +37,6 @@ Chromium browser run session wayland
 Proview desktop: https://youtu.be/9B-nTJyEZX0
 
 Kernel fast support zfs-yes , nvidia-not , snapd-not , anbox-not , virtualbox-not https://github.com/Griggorii/linux-image-5.9.3_amd64.deb_light_zstd_ultra_fast_kernel_memory_super_low ядро будет доработано как будут получены инвестиции из бюджета или другими способами мирового стартапа сорцов в свободном доступе именно этого смерженного ядра нету нигде в мире и даже у торвальдсаочень легкое ядро все работает мгновенно и никакой выход из сессии не подвисает исключена сигнатура что наверное и дает такую мощную производительность.
-
-Canvas fix lag tab tearing browser s chrome , chromium , opera , brave https://chrome.google.com/webstore/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd run setting disable notify youtube , twitch.tw , twitter or other sites.
 
 Переключение языка виртуальной клавиатуры при входе в gdm3 win-super+space вообщем теперь можете пароль перебить на любой язык хоть на русский и менять вин + пробел раскладку для набора пароля даже на русском.
 
