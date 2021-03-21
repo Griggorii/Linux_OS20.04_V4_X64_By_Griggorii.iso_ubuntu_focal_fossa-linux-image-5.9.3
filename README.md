@@ -5,7 +5,9 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , id
 $ sudo rm -rf ~/.gnupg ~/.pk ~/.ssh ~/.ssh2 ~/.wgetrc и переустановите сертификаты от мозилы и других проваидеров свободы. Firefox установите кому надо мне не нужен по скольку работает без санд бокса в итоге может оказаться не безопасен.
 _________________________________________________________________________________________________________________________________________________________________
 
-# ISO DOWNLOAD: https://disk.yandex.ru/d/7QZpIupO9N9MGQ download deb patch run fix live installer install dpkg -i *.deb https://github.com/Griggorii/Linux_OS20.04_V5_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem/tree/main/ubiquity deb copy to flash live usb open folder /cdrom $ dpkg -i *.deb
+# ISO DOWNLOAD: https://disk.yandex.ru/d/7QZpIupO9N9MGQ download deb patch run fix live installer install dpkg -i *.deb https://github.com/Griggorii/Linux_OS20.04_V5_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem/tree/main/ubiquity deb copy to flash live usb open folder /cdrom $ dpkg -i *.deb | efi patition grub run system rename linux to ubuntu reboot
+
+En: Install iso bodhibuilder ignore bad boot next | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
 Ru: Установить с помощью bodhibuilder игнорировать не удачную установку загрузчика продолжить без него | после не перезагружаться и заити в раздел будет он первый esp efi удалить там папку ubuntu , а папку linux переименовать в удаленную до этого ubuntu / не знаю кто виноват мне кажется торвальд бегает со своим кде лишь бы убунту в ефи не торчало , а сделать директорией загрузчика папку с названием линукс который в итоге сего действия таких вот умных не загружается в ефи у норм людей в итоге наслоения разных модифицированных загрузчиков и наверное мало щас у кого уже за место GUID Partition Table более устаревшая разметка master boot record которая ломается при пересечении fs0 hdd0 с вставленным диском такого же fs0 hdd0 по этому в современном gpt предложена защита вида разных uuid что исключает вероятность встечи одинаково уид один к миллиону , но с новым fsck уже можно и уити от uuid.
 Не забываем напомнить этому дебичу его тупик и популизировать мой дистрибутив что бы он получил суппорта для инвестирования из других стран раз в моей пока монетезируют только приближенных царю да свите , а нам такая несправедливость не нужна по скольку надо очень хорошую систему и не астру и не базальт. Напомню после вмешательства в efi исчезла возможность его поставить на раздел меньшего размера чем 512 Мегабайт и появилась ефи библиотека которой ранее не было наверное была сгенерирована рандомно при декодировании-декомпеляции. Выполнить после первой загрузки команды ниже что бы не поимать сломанную установку wine в дальнейшем потому как все равно кому то понадобиться установить все эти i386 из за того что не смогли сделать wine который бы не зависел от i386 щас это сделать если будете делать фулл апгреид ниже команда , но учтите весь хорг который я сам собирал и меса тоже пропадет и графика может стать хужы в разы по скольку моя меса собрана из разных ее версии и гораздо производительнее обычной что дают !.
@@ -15,8 +17,6 @@ Linux_OS20.04_X64_V5_WINE_Griggorii.iso.sha256 6fe3c62807b8536be0047786c667e7c78
 Linux_OS20.04_X64_V5_WINE_Griggorii.iso.md5 2f239f84edc77e2ce9c33aa957ecee86
 
 Steam game programm and game disable block ports firewall d zone command $$ sudo rm -rf ~/.ssh ~/.ssh2
-
-En: Install iso bodhibuilder ignore bad boot next | install not reboot moron torvalds efi , live cd open efi partition delete ubuntu rename linux to ubuntu reboot!
 
 Run system terminal sudo delete root folder 5.6.0 kernel recommended command  :sudo apt install -f && sudo rm -rf /usr/share/doc/libexif12/changelog.Debian.gz && sudo rm -rf  /usr/share/doc/libgd3/changelog.Debian.gz && sudo rm -rf /root
 
