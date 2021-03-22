@@ -1,5 +1,5 @@
 # Linux_OS20.04_V5_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem
-iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , idlepython 3.8.5 my build , python3.8.5 , anti certification os qanon , anti term , anti conspiracy , trump os , screencast pipewire job , modification patent my new vmlinuz-5.6.0-1020-oem System.map-5.6.0-1020-oem busybox light , + dracut
+iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , idlepython 3.8.5 my build , python3.8.5 , anti certification os qanon , anti term , anti conspiracy , trump os , screencast pipewire job , modification patent my new vmlinuz-5.6.0-1020-oem System.map-5.6.0-1020-oem busybox light , + dracut , qtshadercache
 
 Распространяется с mit лицензией ввиду того что содержит пропирти вещи такие как zfs , nvidia и другое ПО. Все сертификаты удалены поставлены локи для безопасности по этому могут не работать такие вещи как погода , карты и все остальное по скольку им нужен доступ на машину , для разблокировки выполните команду: 
 $ sudo rm -rf ~/.gnupg ~/.pk ~/.ssh ~/.ssh2 ~/.wgetrc и переустановите сертификаты от мозилы и других проваидеров свободы. Firefox установите кому надо мне не нужен по скольку работает без санд бокса в итоге может оказаться не безопасен.
