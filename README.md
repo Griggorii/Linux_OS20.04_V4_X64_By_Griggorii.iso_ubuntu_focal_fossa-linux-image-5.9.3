@@ -33,11 +33,13 @@ Linux_OS20.04_X64_V5_WINE_Griggorii.iso.sha256 6fe3c62807b8536be0047786c667e7c78
 
 Linux_OS20.04_X64_V5_WINE_Griggorii.iso.md5 2f239f84edc77e2ce9c33aa957ecee86
 
-Steam game programm and game disable block ports firewall d zone command $$ sudo rm -rf ~/.ssh ~/.ssh2
+Steam game programm and game disable block ports fix firewall d zone command $$ sudo rm -rf ~/.ssh ~/.ssh2
 
 Run system terminal sudo delete root folder 5.6.0 kernel recommended command  :sudo apt install -f && sudo rm -rf /usr/share/doc/libexif12/changelog.Debian.gz && sudo rm -rf  /usr/share/doc/libgd3/changelog.Debian.gz && sudo rm -rf /root
 
 Canvas fix lag tab tearing browser s chrome , chromium , opera , brave https://chrome.google.com/webstore/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd run setting disable notify youtube , twitch.tw , twitter or other sites.
+
+New kernel 5.6.0 update wayland fast + instructions https://github.com/Griggorii/Linux_OS20.04_V5_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem/releases/download/Wayland/griggorii-patent-update-kernel-5.6.0-1020-oem.zip
 
 ________________________________________________________________________________________________________________________________________________________________
 
