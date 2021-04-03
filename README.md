@@ -221,3 +221,5 @@ Connector 61 (LVDS-1)
 			4720446973706c61790a2020000000fe
 			004c503135365748342d544c41310079
 
+Beta synchronization os https://github.com/Griggorii/ubuntu-21.04-hirsute-desktop-amd64-griggorii-zsync.iso
+
