@@ -22,7 +22,7 @@ Run system terminal root command : apt install -f && rm -rf /usr/share/doc/libex
 
 Recommendation  purge auto check upgrade-core + perfomance not lag wayland:
 
-$ sudo apt purge apturl* apturl-common* nautilus-share* python3-distupgrade* python3-update-manager* ttf-mscorefonts-installer* ubuntu-release-upgrader-core* ubuntu-release-upgrader-gtk* update-manager* update-manager-core* update-notifier* update-notifier-common*
+$ sudo apt purge apturl* apturl-common* nautilus-share* python3-distupgrade* python3-update-manager* ttf-mscorefonts-installer* ubuntu-release-upgrader-core* ubuntu-release-upgrader-gtk* update-manager* update-manager-core* update-notifier* update-notifier-common* -y && sudo rm -rf /var/lib/update-notifier && sudo rm -rf /var/lib/ubuntu-release-upgrader
 
 Perfomance accelerate check perfomance hw qt4
 
