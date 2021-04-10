@@ -19,7 +19,8 @@ UEFI SECURE BOOT disable ! Boot
 Если появится ниже следующая проблема то лучше завести флешку с reefind чем решать теперь проблему созданную разработчиками которой ранее не наблюдалось в версии 19.10 , reefind найдет любое ядро даже если вы его создали с помощью dracut, а ядра другого формата инитрид удалили с его ссылками обычно это tar.gz без расширения или другие , после в некоторых случаях надо немного подождать пока refind заведет ядро и система поидет на старт. Так что знатоки dracut поимут на сколько я сделал навороченный и очень хорошии дистрибутив убрав конфликт когда initramfs-tools и dracut нельзя было установить вместе и когда гента более не нужна , ну конечно щас побегут ярые гентоводы минусовать и все такое , но я сразу говорю в будущем когда флагами initrd<kernel_version.img> можно будет модифицировать на лету я не вижу смысла собирать генту месяц.
 
 Run system terminal root command : apt install -f && rm -rf /usr/share/doc/libexif12/changelog.Debian.gz /usr/share/doc/libgd3/changelog.Debian.gz
-recommendation  purge auto check upgrade-core + perfomance not lag wayland:
+
+Recommendation  purge auto check upgrade-core + perfomance not lag wayland:
 
 $ sudo apt purge apturl* apturl-common* nautilus-share* python3-distupgrade* python3-update-manager* ttf-mscorefonts-installer* ubuntu-release-upgrader-core* ubuntu-release-upgrader-gtk* update-manager* update-manager-core* update-notifier* update-notifier-common*
 
