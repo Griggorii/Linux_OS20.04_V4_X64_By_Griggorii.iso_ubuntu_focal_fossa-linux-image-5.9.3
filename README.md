@@ -227,5 +227,5 @@ Connector 61 (LVDS-1)
 
 Beta synchronization os https://github.com/Griggorii/ubuntu-21.04-hirsute-desktop-amd64-griggorii-zsync.iso
 
-Alternative light Chromium OS77 https://github.com/Griggorii/Chromium_OS_77 best speed boot run system shell - жду идей по доработке что бы на ютубе заработал libffmpeg.so надо сделать в opt папке с chromium библиотеками спец линк типа 
+Alternative light Chromium OS77 https://github.com/Griggorii/Chromium_OS_77 best speed boot run system shell - жду идей по доработке что бы на ютубе заработал libffmpeg.so надо сделать в opt папке с chromium библиотеками спец линк типа sudo cp libffmpeg.so /opt/chromium && sudo ln -s /opt/chromium ./libs example support youtube html5 video
 
