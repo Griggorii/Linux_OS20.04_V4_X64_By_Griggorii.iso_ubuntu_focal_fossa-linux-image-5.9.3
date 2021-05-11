@@ -6,6 +6,8 @@ $$ sudo cp daemon.conf /etc/pulse
 
 Example bad freeze audio pulse https://youtu.be/Z7WEoJct4zY
 
+Fix replace device audio output in session wayland record format codec WebM green-recorder
+
 
 ; enable-memfd = yes
 ; rescue-streams = yes
