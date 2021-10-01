@@ -1,1 +1,0 @@
-testing zst initramfs.conf casper-update-initramfs
