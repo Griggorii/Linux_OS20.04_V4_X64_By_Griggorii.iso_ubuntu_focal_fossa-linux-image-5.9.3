@@ -1,5 +1,5 @@
 # Linux_OS20.04_X64_By_Griggorii_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem
-iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , idlepython 3.8.5 my build , python3.8.5 , anti certification os qanon , anti term , anti conspiracy , trump os , screencast pipewire job , modification patent my new vmlinuz-5.6.0-1020-oem System.map-5.6.0-1020-oem busybox light , + dracut , qtshadercache , libqimsw , libqspiaccessiblebridge , libappmenu-qt , libqgif , libqico , libqjpeg , libqmng , libqsvg , libqtga , libqtiff , support webgl mesa in wayland mesa patent build griggorii - swrast , RGB_Wide_Gamut_Fixed_Point=13 , RGB_Wide_Gamut_Floating_Point=14 , opRGB=7 , DCI-P3_RGB_D65=11 , BT2020_RGB=9 BT601_YCC=15 BT709_YCC=2 , XVYCC_601=3 XVYCC_709=4 , SYCC_601=5 , opYCC_601=6 , BT2020_CYCC=8 BT2020_YCC=10 , stable os
+iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland
 
 # ISO DOWNLOAD ubuntu-20.04.2-desktop-amd64.iso: https://drive.google.com/file/d/1-6Xs2803DEQkOy7CY_raFIQj-T54ip0T/view?usp=sharing
 
