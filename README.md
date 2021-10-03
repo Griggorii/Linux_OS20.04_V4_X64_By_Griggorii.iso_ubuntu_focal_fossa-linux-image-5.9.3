@@ -1,7 +1,7 @@
 # Linux_OS20.04_X64_By_Griggorii_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem
 iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland
 
-# ISO DOWNLOAD ubuntu-20.04.2-desktop-amd64.iso: https://drive.google.com/file/d/1-2AWbtRp0aXwGdmgcrJLbMERtcOT_oUs/view?usp=sharing
+# ISO DOWNLOAD size 2Gb ubuntu-20.04.2-desktop-amd64.iso: https://drive.google.com/file/d/1-2AWbtRp0aXwGdmgcrJLbMERtcOT_oUs/view?usp=sharing
 Install iso fix update wine32 install: 
 
 $ sudo rm /usr/share/doc/libglib2.0-0/changelog.Debian.gz
