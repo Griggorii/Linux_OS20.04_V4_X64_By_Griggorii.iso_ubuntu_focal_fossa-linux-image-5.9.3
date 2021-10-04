@@ -10,6 +10,8 @@ Fix users-admin:
 
 $ sudo apt reinstall -y libpolkit-gobject-1-0 libdbus-1-3 libdbus-glib-1-2 libglib2.0-0 libnet-dbus-perl dbus system-tools-backends liboobs-1-5
 
+Fix mesa + xorg install fast 100% https://github.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/releases/tag/libmesa_dri
+
 Disable Splash Screen on Boot in Custom Ubuntu 20.04
 
 Boot Press ESC
