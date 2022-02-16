@@ -14,7 +14,7 @@ Fix mesa + xorg install fast 100% https://github.com/Griggorii/Xorg_1.28-Mesa_23
 
 Ethernet test fix RJ-45 cable connector
 
-$ sudo nm-connection-editor
+$ nm-connection-editor
 
 Disable Splash Screen on Boot in Custom Ubuntu 20.04
 
