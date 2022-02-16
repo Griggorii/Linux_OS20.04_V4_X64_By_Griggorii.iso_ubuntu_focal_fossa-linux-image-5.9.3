@@ -12,7 +12,7 @@ $ sudo apt reinstall -y libpolkit-gobject-1-0 libdbus-1-3 libdbus-glib-1-2 libgl
 
 Fix mesa + xorg install fast 100% https://github.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/releases/tag/libmesa_dri
 
-Ethernet test fix RJ-45 cable connector
+Ethernet test fix RJ-45 cable connector interface eth0
 
 $ nm-connection-editor
 
