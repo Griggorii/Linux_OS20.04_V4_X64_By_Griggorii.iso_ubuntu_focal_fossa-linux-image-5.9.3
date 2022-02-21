@@ -24,6 +24,8 @@ $ sudo apt autoremove
 
 Очень полезно по скольку в моей системе есть chromium браузер и безопасность этих пакетов с их rtc rdp не доказана и они могут паразитно наслаиваться в браузере создавая дополнительную нагрузку на отрисовку редрендинга той же картинки на ютубе , дополнительно обновился libexpat с устаранением уязвимости даст ускорение или нет не известно , но всяко лучше чем сидеть с уязвимостью и смотреть каких то теч блогеров вообщем посмотрите как работает от него какие либо зависимые программы и одна из них libreoffice https://github.com/Griggorii/Xorg_1.28-Mesa_21.0.3_Ubuntu_20.04/tree/main/expat-ubuntu-20.04-fix-CVE-2022-25313
 
+https://github.com/Griggorii/Setting_dconf_linux_OS20.04_21.04_V52.0_By_Griggorii_Wayland_adaptation
+
 Disable Splash Screen on Boot in Custom Ubuntu 20.04
 
 Boot Press ESC
