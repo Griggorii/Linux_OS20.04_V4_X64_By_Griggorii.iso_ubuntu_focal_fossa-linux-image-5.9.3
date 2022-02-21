@@ -18,9 +18,17 @@ $ nm-connection-editor
 
 ENG:Useful tips from griggorii to ease my system  | RU:Полезные рекомендации от griggorii для облегчения моей системы  
 
-$ sudo apt purge avahi* youtube-dl*
+$ sudo apt purge avahi* youtube-dl amd64-microcode intel-microcode
 
 $ sudo apt autoremove
+
+$ sudo rm -rf /lib/modprobe.d/nvidia-graphics-drivers.conf /usr/lib/x86_64-linux-gnu/dri/i965_dri.so /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+
+$ sudo apt reinstall libllvm10 -y
+
+$ sudo update-initramfs -u -v
+
+Reboot
 
 Очень полезно по скольку в моей системе есть chromium браузер и безопасность этих пакетов с их rtc rdp не доказана и они могут паразитно наслаиваться в браузере создавая дополнительную нагрузку на отрисовку редрендинга той же картинки на ютубе , дополнительно обновился libexpat с устаранением уязвимости даст ускорение или нет не известно , но всяко лучше чем сидеть с уязвимостью и смотреть каких то теч блогеров вообщем посмотрите как работает от него какие либо зависимые программы и одна из них libreoffice https://github.com/Griggorii/Xorg_1.28-Mesa_21.0.3_Ubuntu_20.04/tree/main/expat-ubuntu-20.04-fix-CVE-2022-25313
 
