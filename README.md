@@ -20,7 +20,7 @@ ENG:Useful tips from griggorii to ease my system  | RU:Полезные реко
 
 $ sudo apt purge avahi* youtube-dl amd64-microcode intel-microcode
 
-$ sudo apt purge qt5*
+$ sudo apt purge qt5* && qt5 not perfomance api ui recomendation purge alternative package native qt appimage , default performance my os qt4.8.7 soon if there is investment it will support past version ui shell theme gtk2 theme
 
 $ sudo apt autoremove
 
