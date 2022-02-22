@@ -20,6 +20,8 @@ ENG:Useful tips from griggorii to ease my system  | RU:Полезные реко
 
 $ sudo apt purge avahi* youtube-dl amd64-microcode intel-microcode
 
+$ sudo apt purge qt5*
+
 $ sudo apt autoremove
 
 $ sudo rm -rf /lib/modprobe.d/nvidia-graphics-drivers.conf /usr/lib/x86_64-linux-gnu/dri/i965_dri.so /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
