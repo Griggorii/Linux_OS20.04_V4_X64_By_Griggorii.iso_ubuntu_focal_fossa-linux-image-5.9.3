@@ -1,6 +1,8 @@
 # Linux_OS20.04_X64_By_Griggorii_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem
 iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland
 
+New dump new os ubuntu_jammy_22.04.tar.xz upnpack chroot readme /tmp
+
 # ISO DOWNLOAD size 2Gb ubuntu-20.04.2-desktop-amd64.iso: https://drive.google.com/file/d/1-2AWbtRp0aXwGdmgcrJLbMERtcOT_oUs/view?usp=sharing
 Install iso fix update wine32 install: 
 
