@@ -10,7 +10,7 @@ Fix users-admin:
 
 $ sudo apt reinstall -y libpolkit-gobject-1-0 libdbus-1-3 libdbus-glib-1-2 libglib2.0-0 libnet-dbus-perl dbus system-tools-backends liboobs-1-5
 
-Fix mesa + xorg install fast 100% https://github.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/releases/tag/libmesa_dri
+Fix mesa + xorg install fast 100% https://github.com/Griggorii/Xorg_1.28-Mesa_21.2.6_Ubuntu_20.04/releases/tag/libmesa_dri
 
 Ethernet fix ubuntu-20.04 RJ-45 cable https://github.com/Griggorii/Ubuntu-20.04.2-desktop-amd64_By_Griggorii_linux-image-kernel-5.6.0-oem/blob/main/Network-cable-RJ-45-fix-griggorii-deb.amd64.zip
 
