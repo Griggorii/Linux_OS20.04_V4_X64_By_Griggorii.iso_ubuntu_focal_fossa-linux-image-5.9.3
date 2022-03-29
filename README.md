@@ -1,5 +1,5 @@
 # Linux_OS20.04_X64_By_Griggorii_ubuntu_focal_fossa-linux-image-kernel-5.6.0-oem
-iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , внимание пользователям griggorii пока больше не выпускает операционные системы пакованные в iso образы по причине паразитирования на соответствующих изготовленных мною системах с улучшенной производительностью для завершения вам надо будет установить с отдельно взятой ссылки видео драйвер в zip архиве mesa-20.1.0-V15.3-Ubuntu-20.04.zip и прочитать лицензионное соглашение.
+iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , внимание пользователям griggorii пока больше не выпускает операционные системы пакованные в iso образы по причине паразитирования на соответствующих изготовленных мною системах с улучшенной производительностью для завершения вам надо будет установить с отдельно взятой ссылки видео драйвер в zip архиве mesa-20.1.0-V15.3-Ubuntu-20.04.zip и прочитать лицензионное соглашение. И если у вас не стоят драйвера nvidia удалить командой sudo rm /usr/lib/modprobe.d/nvidia-graphics-drivers.conf для работы nouveau и обновить initramfs.
 
 # ISO DOWNLOAD size 2Gb ubuntu-20.04.2-desktop-amd64.iso: https://drive.google.com/file/d/1-2AWbtRp0aXwGdmgcrJLbMERtcOT_oUs/view?usp=sharing
 Install iso fix update wine32 install: 
