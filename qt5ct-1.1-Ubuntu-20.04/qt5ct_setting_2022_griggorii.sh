@@ -11,6 +11,7 @@ cat << EOF > qt5ct.conf
 [Appearance]
 color_scheme_path=/usr/share/qt5ct/colors/simple.conf
 custom_palette=false
+icon_theme=Adwaita
 standard_dialogs=gtk2
 style=gtk2
 
@@ -28,13 +29,17 @@ gui_effects=General, AnimateMenu, AnimateCombo, AnimateTooltip, AnimateToolBox
 keyboard_scheme=4
 menus_have_icons=true
 show_shortcuts_in_context_menus=true
-stylesheets=@Invalid()
+stylesheets=/usr/share/qt5ct/qss/fusion-fixes.qss, /usr/share/qt5ct/qss/scrollbar-simple.qss, /usr/share/qt5ct/qss/sliders-simple.qss, /usr/share/qt5ct/qss/tooltip-simple.qss, /usr/share/qt5ct/qss/traynotification-simple.qss
 toolbutton_style=4
 underline_shortcut=2
 wheel_scroll_lines=3
 
 [SettingsWindow]
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\xe1\0\0\0\b\0\0\x3\xc1\0\0\x2\xde\0\0\0\xe2\0\0\0&\0\0\x3\xc0\0\0\x2\xdd\0\0\0\0\0\0\0\0\x5V\0\0\0\xe2\0\0\0&\0\0\x3\xc0\0\0\x2\xdd)
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\xf3\0\0\0\x19\0\0\x3\xd1\0\0\x2\xf5\0\0\0\xf3\0\0\0>\0\0\x3\xd1\0\0\x2\xf5\0\0\0\0\0\0\0\0\x5V\0\0\0\xf3\0\0\0>\0\0\x3\xd1\0\0\x2\xf5)
+
+[Troubleshooting]
+force_raster_widgets=2
+ignored_applications=/usr/bin/chromium-browser
 EOF
 cp qt5ct.conf ~/.config/qt5ct/
 EOF
