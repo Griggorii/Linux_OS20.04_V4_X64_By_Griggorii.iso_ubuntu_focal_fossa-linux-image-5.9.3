@@ -40,3 +40,9 @@ cp qt5ct.conf ~/.config/qt5ct/
 EOF
 rm qt5ct.conf
 EOF
+qt5ct
+EOF
+obs
+EOF
+obs-studio
+EOF
