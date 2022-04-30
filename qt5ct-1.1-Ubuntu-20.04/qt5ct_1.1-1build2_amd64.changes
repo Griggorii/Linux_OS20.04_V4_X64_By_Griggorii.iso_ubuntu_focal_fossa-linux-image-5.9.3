@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 27 Nov 2020 18:57:40 +0300
+Source: qt5ct
+Binary: qt5ct
+Architecture: amd64
+Version: 1.1-1build2
+Distribution: hirsute
+Urgency: medium
+Maintainer: Debian Qt-extras Maintainers <debian-qt-kde@lists.debian.org>
+Changed-By: Dmitry Shachnev <mitya57@ubuntu.com>
+Description:
+ qt5ct      - Qt5 Configuration Utility
+Changes:
+ qt5ct (1.1-1build2) hirsute; urgency=medium
+ .
+   * No-change rebuild against qtbase-abi-5-15-2.
+Checksums-Sha1:
+ c387ff76fd09bc1a4210fb50d79a97aa1bdbd309 1954912 qt5ct-dbgsym_1.1-1build2_amd64.ddeb
+ 18d2a87eb9fe4f318ea8785a72fcee0ee0cc2680 13314 qt5ct_1.1-1build2_amd64.buildinfo
+ 7ebae8749210516a673786009eb0395c14557225 212336 qt5ct_1.1-1build2_amd64.deb
+Checksums-Sha256:
+ dbf519c3a449a425c92bf55bf4586e03d4c29c31d8055dad2c22b07ee1205f1b 1954912 qt5ct-dbgsym_1.1-1build2_amd64.ddeb
+ 205553e87cf08d6ba7db53998e19537ece257b2b7270f39e655eb1a2f8cde806 13314 qt5ct_1.1-1build2_amd64.buildinfo
+ 589cb5f93b92d19a62b401d0997ccdc7d5ffbb2d0714cb8db662fc8720ce2083 212336 qt5ct_1.1-1build2_amd64.deb
+Files:
+ 7dffbcab67b4daf39ebfbc7951a1f5f9 1954912 debug optional qt5ct-dbgsym_1.1-1build2_amd64.ddeb
+ 82c1501b255e4d4f9bc1185d373a93c3 13314 utils optional qt5ct_1.1-1build2_amd64.buildinfo
+ b4c3a1e28f3296be999e7e0f004d84e4 212336 utils optional qt5ct_1.1-1build2_amd64.deb
