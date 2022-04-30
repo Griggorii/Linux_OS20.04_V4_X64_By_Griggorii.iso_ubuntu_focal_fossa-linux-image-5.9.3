@@ -12,7 +12,7 @@ $ sudo apt reinstall -y libpolkit-gobject-1-0 libdbus-1-3 libdbus-glib-1-2 libgl
 
 Fix mesa + xorg install fast 100% https://github.com/Griggorii/Xorg_1.28-Mesa_21.2.6_Ubuntu_20.04/releases/tag/libmesa_dri
 
-Fix perfomance run gui qt5ct reinstall deb: https://github.com/Griggorii/Ubuntu-20.04.2-desktop-amd64_By_Griggorii_linux-image-kernel-5.6.0-oem/tree/main/qt5ct-1.1-Ubuntu-20.04
+Fix 2022 perfomance run gui qt5ct reinstall deb: https://github.com/Griggorii/Ubuntu-20.04.2-desktop-amd64_By_Griggorii_linux-image-kernel-5.6.0-oem/tree/main/qt5ct-1.1-Ubuntu-20.04
 
 Ethernet fix ubuntu-20.04 RJ-45 cable https://github.com/Griggorii/Ubuntu-20.04.2-desktop-amd64_By_Griggorii_linux-image-kernel-5.6.0-oem/blob/main/Network-cable-RJ-45-fix-griggorii-deb.amd64.zip
 
