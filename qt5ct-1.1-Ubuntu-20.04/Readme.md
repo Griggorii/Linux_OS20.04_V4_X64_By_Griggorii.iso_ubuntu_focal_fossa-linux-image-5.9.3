@@ -2,7 +2,7 @@ install deb new qt5ct
 
 sudo apt update
 
-sudo dpkg -i ./qt5ct_1.1-1build2_amd64.deb
+sudo dpkg -i ./qt5ct_1.1-1build3_amd64.deb
 
 sudo apt install -f
 
