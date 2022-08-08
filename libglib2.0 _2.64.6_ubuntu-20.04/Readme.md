@@ -4,7 +4,7 @@ sudo dpkg -i slimbookbattery_4.0.5beta_all.deb && sudo apt install -f
 
 _________________________________________________________________________________________
 
-Mangohud Ubuntu 20.04 | Run command example command terminal $ mangohud glxgears
+Mangohud Ubuntu 20.04 | Run command example command terminal $ mangohud glxgears  / and $ mangohud kodi --standalone
 
 mangohud <application>
 
