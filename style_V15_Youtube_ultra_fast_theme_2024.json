@@ -1,0 +1,951 @@
+{
+  "_timestamp": 1671960494587,
+  "_version": "3.38.2-chrome",
+  "actionIndicatorActionSeek": false,
+  "actionIndicatorActionSeekBasedOnPlaybackRate": false,
+  "actionIndicatorIconHidden": false,
+  "adsAutoSkip": false,
+  "adsAutoSkipDelay": 5,
+  "adsSetVolumeMuted": false,
+  "audioAutoGain": false,
+  "audioAutoGainBoostThreshold": -3,
+  "audioAutoGainMode": "boost",
+  "audioBoostGain": 3,
+  "audioHPF": false,
+  "audioHPFFrequency": 200,
+  "audioMonoMix": false,
+  "audioMonoMixSource": "left+right",
+  "audioPan": 0,
+  "autoclickAdSkipButton": false,
+  "backToTop": "blue",
+  "backToTopPosition": "center",
+  "channelPageBanner": false,
+  "channelTrailerAutoplay": true,
+  "chaptersAutoShowList": false,
+  "chatVisibility": false,
+  "cinemaMode": false,
+  "cinemaModeHiddenMasthead": false,
+  "cinemaModeHiddenScrollbar": false,
+  "cleanPlayer": false,
+  "cleanPlayerAdOverlay": true,
+  "cleanPlayerCE": false,
+  "cleanPlayerChannelWattermark": false,
+  "cleanPlayerCinematics": false,
+  "cleanPlayerEmbeddedPauseOverlay": false,
+  "cleanPlayerEndScreen": false,
+  "cleanPlayerPaidContentOverlay": true,
+  "cleanPlayerProgressBarHeatmap": false,
+  "cleanPlayerSuggestedAction": true,
+  "cleanPlayerTop": false,
+  "cleanPlayerVideoAnnotations": true,
+  "cleanSite": false,
+  "cleanSiteAds": true,
+  "cleanSiteAnnoyances": true,
+  "cleanSiteDrawerFooter": false,
+  "cleanSiteHeaderLogoYoodle": false,
+  "cleanSiteHeaderVoiceSearchButton": false,
+  "cleanSiteHomeSections": false,
+  "cleanSiteSidebarDonationShelf": false,
+  "cleanSiteWatchClarifyBox": false,
+  "cleanSiteWatchCommentInput": false,
+  "cleanSiteWatchInfoMenu": false,
+  "cleanSiteWatchLaterAndQueueLabels": false,
+  "cleanSiteWatchTitleHashtag": false,
+  "commentsInputFocusAndPaste": false,
+  "commentsInputTimeCorrection": 0,
+  "commentsSectionHidden": false,
+  "commentsSortBy": false,
+  "contentFilters": false,
+  "contentFiltersLiveHomePage": false,
+  "contentFiltersLiveRelatedVideos": false,
+  "contentFiltersLiveSubscriptionsPage": false,
+  "contentFiltersMixHomePage": false,
+  "contentFiltersMixRelatedVideos": false,
+  "contentFiltersShortsRelatedVideos": false,
+  "contentFiltersShortsSearch": false,
+  "contentFiltersShortsSubscriptionsPage": false,
+  "contentFiltersUpcomingHomePage": false,
+  "contentFiltersUpcomingSubscriptionsPage": false,
+  "convertChannelNameToURL": true,
+  "copyVideoURLDomain": "short",
+  "copyVideoURLExcludePlaylist": false,
+  "copyVideoURLTime": "s",
+  "customCSS": true,
+  "customCSSCode": "/*griggorii youtube UI 2024 project ultra fast theme 2024 mobile or tablet or all device copyright CC BY-SA 4.0*/\n/*https://github.com/Griggorii/YouTubeFluent | style_V15_Youtube_ultra_fast_theme_2024.csss*/\n/*Проект почти завершен donte or support sberbank rub 4276 4001 0004 2457 by Griggorii*/\n/* griggorii fix test important transparent delete all parametr lag change dark theme or light */\nyt-chip-cloud-chip-renderer[modern-chips][chip-style] {\n    border-radius: 24px !important;\n}\n\n   /*griggorii button outline | knopka vxoda otvetov itd*/\n.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {\ncolor: var(--yt-spec-text-primary-inverse) !important;\n}\n.yt-spec-button-shape-next--size-m {\n    padding: 0 16px !important;\n    /*height: 36px !important;*/\n    font-size: 14px !important;\n    line-height: 36px !important;\n    /*border-radius: 24px !important;*/\n}\n.yt-spec-button-shape-next {\n    position: relative !important;\n    margin: 0 !important;\n    white-space: nowrap !important;\n    min-width: 0 !important;\n    text-transform: none !important;\n    font-family: \"Roboto\",\"Arial\",sans-serif !important;\n    cursor: pointer !important;\n    outline-width: 0 !important;\n    box-sizing: border-box !important;\n    /*background: none !important;*/\n}\n.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {\n    color: #0066ff !important;\n    /*color: #0657d4 !important;*/\n    /*color: #107516 !important;*/\n    border-color: var(--yt-spec-outline);\n}\n.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline:hover{\n    background-color: #0066ffa6 !important;\n    /*background-color: #0f0f0f !important;*/\n    border-color: transparent !important;\n}\n\n/* griggorii color comment or close player */\n.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text{\n    color: #0066ff !important;\n    /*color: #107516 !important;*/\n    /*color: #0657d4 !important;*/\n}\n\n/*griggorii name video*/\nytd-watch-metadata {\n    display: block !important;\n    border-color: transparent !important;\n}\n   /* griggorii subscr fix */\n.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {\n    /* color: var(--yt-spec-text-primary-inverse); */\n    color: #fff !important;\n    background-color: #c00 !important;\n}\n/* griggorii test button border radius*/\nytd-button-renderer #button.ytd-button-renderer * {\n    background-color: #8664641c !important;\n    border-radius: 24px !important;\n}\n/*live badge border radius*/\n.badge-style-type-live-now.ytd-badge-supported-renderer {\n\tborder-radius: 24px !important;\n}\n/*griggorii rounded corners stroke icons live badge border radius*/\n.badge.ytd-badge-supported-renderer {\n    border-radius: 24px !important;\n}\n/*griggorii live green icon*/\n.badge-style-type-live-now-alternate.ytd-badge-supported-renderer {\n    background: #085d16 !important;\n    color: #ffffff !important;\n}\n/*griggorii new live red icon*/\n.badge-style-type-simple.ytd-badge-supported-renderer {\n    background: #d00808 !important;\n    color: #ffffff !important;\n}\n/*channel name border radius fix*/\n#container.ytd-channel-name {\n\tborder-radius: 24px !important;\n}\n/*endscreen channel border radius*/\n.ytp-ce-channel, .ytp-ce-channel .ytp-ce-expanding-image, .ytp-ce-channel .ytp-ce-element-shadow {\n\tborder-radius: 24px !important;\n}\n/*endscreen playlist border radius top left*/\n.ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-top-left-quad {\n\tborder-radius: 24px !important;\n}\n/*endscreen playlist border radius top right*/\n.ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-top-right-quad {\n\tborder-radius: 24px !important;\n}\n/*endscreen playlist border radius bottom right*/\n.ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-bottom-right-quad {\n\tborder-radius: 24px !important;\n}\n/*endscreen playlist border radius bottom left*/\n.ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-bottom-left-quad {\n\tborder-radius: 24px !important;\n}\n/*endscreen website border radius top left*/\n.ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-top-left-quad {\n\tborder-radius: 24px !important;\n}\n/*endscreen website border radius top right*/\n.ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-top-right-quad {\n\tborder-radius: 24px !important;\n}\n/*endscreen website border radius bottom left*/\n.ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-bottom-left-quad {\n\tborder-radius: 24px !important;\n}\n/*endscreen website border radius bottom right*/\n.ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-bottom-right-quad {\n\tborder-radius: 24px !important;\n}\n/*endscreen website image border radius*/\n.ytp-ce-expanding-image {\n\tborder-radius: 24px !important;\n}\n/*gaming info container border radius*/\nytd-rich-metadata-renderer.style-scope.ytd-rich-metadata-row-renderer {\n\tborder-radius: 24px !important;\n}\n/*playlist highlighter border radius*/\nytd-playlist-panel-video-renderer#playlist-items {\n\tborder-radius: 24px;\n}\n/*container border radius*/\ndiv#container {\n\tborder-radius: 24px !important;\n}\n/*playlist header border radius*/\n.header.style-scope.ytd-playlist-panel-renderer {\n\tborder-radius: 24px 24px 24px 24px !important;\n}\n/*video (playlist) border radius*/\nytd-playlist-video-renderer {\n\tborder-radius: 24px !important;\n}\n/*sub button border radius*/\npaper-button.ytd-subscribe-button-renderer {\n\tborder-radius: 24px !important;\n}\n#items.yt-horizontal-list-renderer>ytd-post-renderer.yt-horizontal-list-renderer {\n\tborder-radius: 24px !important;\n}\n.ytp-flyout-cta .ytp-flyout-cta-icon {\n\tborder-radius: 24px !important;\n}\na.ytp-title-channel-logo {\n\tborder-radius: 24px !important;\n}\n\n/*movie player border radius / shadow griggorii 24 aggresive circle bad change loyalty 18px*/\n.ytd-video-preview, .ytp-small-mode {\n\tborder-radius: 18px !important;\n}\n/*movie player border radius / shadow*/\n#movie_player, .video-stream, .ytp-small-mode {\n\tborder-radius: 18px !important;\n\tbox-shadow: 0px 0px 20px 10px rgba(0,0,0,0.5);\n}\n\n   /* griggorii test */\nStyle Attribute {\n    font-size: 10px !important;\n    font-family: Roboto, Arial, sans-serif !important;\n    --twfyt-persistent-progress-bar-opacity: 0.5 !important;\n}\n   /* griggorii test */\nytd-thumbnail-overlay-toggle-button-renderer {\n    border-radius: 24px !important;\n}\nytd-thumbnail-overlay-toggle-button-renderer * {\n    border-radius: 24px !important;\n}\nytd-thumbnail-overlay-time-status-renderer {\n\tborder-radius: 24px !important;\n\tpadding: 6px 6px !important;\n\tbackground-color: rgb(0 0 0 / 35%) !important;\n\tbackdrop-filter: blur(10px) !important;\n}\n/*sidebar hover border radius*/\n.ytd-guide-section-renderer #endpoint:hover {\n\tborder-radius: 24px !important;\n}\n/*sidebar selected border radius*/\nytd-guide-entry-renderer[active] {\n\tborder-radius: 24px !important;\n}\n   /* griggorii fix subscr short */\n.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {\n    color: #c00 !important;\n    background-color: transparent !important;\n}\n/*thumbnail border radius griggorii 24px default 2 , default change lag short text 24>2*/\nimg#img {\n\tborder-radius: 2px !important;\n\t/*border-radius: 24px !important;*/\n}\n/*borderless , color search bar editor griggorii*/\n#container.ytd-searchbox {\n        word-wrap: break-word: !important;\n        display: flex: !important;\n        flex: 100%: !important;\n        box-shadow: !important;\n\tborder: none !important;\n\tborder-radius: 18px 0px 0px 18px !important;\n        background-color: #332c2c21 !important;\n\n}\n/*search icon background color editor griggorii*/\n#search-icon-legacy.ytd-searchbox {\n        word-wrap: break-word: !important;\n        display: flex: !important;\n        flex: 100%: !important;\n        box-shadow: !important;\n\tborder-radius: 0px 18px 18px 0px !important;\n\tbackground-color: #332c2c21 !important;\n}\n\n /* griggorii test effect form shadow button */\n.yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {\n    background-color: #0303030d !important;\n}\n.yt-spec-touch-feedback-shape__fill {\n    /* opacity: 0; */\n}\n\n/*progress bar / next button preview border radius griggorii 24 aggresive circle bad change loyalty 18px*/\n.ytp-tooltip.ytp-bottom, .ytp-tooltip-bg, a.ytp-next-button.ytp-button {\n\tborder-radius: 18px !important;\n}\n\n   /* griggorii transparent theme dark test hsla */\nhtml[system-icons][dark], html[system-icons] [dark] {\n    --yt-spec-icon-inactive: #fff !important;\n    --yt-spec-icon-disabled: #717171 !important;\n    --yt-spec-brand-icon-inactive: #fff !important;\n    --yt-spec-text-primary: #f1f1f1 !important;\n    --yt-spec-text-primary-inverse: #0f0f0f !important;\n}\nhtml[darker-dark-theme][dark], [darker-dark-theme] [dark] {\n    --yt-spec-text-primary: #f1f1f1 !important;\n    --ytd-searchbox-border-color: #909090 !important;\n    --ytd-searchbox-legacy-border-color: #3030302e !important;\n    --ytd-searchbox-legacy-button-border-color: #30303030 !important;\n    --ytd-searchbox-legacy-button-focus-color: #ffffff14 !important;\n    --ytd-searchbox-legacy-button-hover-color: #ffffff !important;\n    --ytd-searchbox-legacy-button-hover-border-color: #3030302e !important;\n    --ytd-searchbox-legacy-button-icon-color: hsla(0, 100%, 100%, 0; --ytd-searchbox-background: hsl(0deg 0% 7% / 18%);7%) !important;\n    --ytd-searchbox-background: #1212122e !important;\n    --yt-spec-base-background: #0f0f0f57 !important;\n    --yt-spec-raised-background: #212121 !important;\n    --yt-spec-menu-background: #282828 !important;\n    --yt-spec-inverted-background: #f1f1f1 !important;\n}\nhtml[dark], [dark] {\n    --ytd-searchbox-border-color: #ffffff !important;\n    --ytd-searchbox-legacy-border-color: #303030 !important;\n    --ytd-searchbox-legacy-border-shadow-color: hsla(0, 0%, 0%, 0) !important;\n    --ytd-searchbox-legacy-button-color: hsla(0, 0%, 100%, 0.08); !important;\n    --ytd-searchbox-legacy-button-border-color: hsl(0, 0%, 18.82%) !important;\n    --ytd-searchbox-legacy-button-focus-color: hsla(0, 0%, 100%, 0.08) !important;\n    --ytd-searchbox-legacy-button-hover-color: hsla(0, 0%, 100%, 0.08) !important;\n    --ytd-searchbox-legacy-button-hover-border-color: hsl(0, 0%, 18.82%) !important;\n    --ytd-searchbox-legacy-button-icon-color: hsla(0, 100%, 100%, 0.5) !important;\n    --ytd-searchbox-background: hsl(0, 0%, 7%) !important;\n    --ytd-searchbox-text-color: hsla(0, 100%, 100%, 0.88) !important;\n}\n/*thumbnail scale effect griggorii + 15 default scale 1.05 */\nytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {\n\ttransform: scale(1.13) !important;\n        transition: 0.9s !important;\n        display: block !important;\n        z-index:99 !important; \n\n}\n/*channel menu item border radius*/\n/*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme */\nytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-item.list-item.style-scope.ytd-account-settings {\n\tborder-radius: 2px !important;\n}\n/* griggorii inheritance texture color preview*/\nytd-playlist-panel-renderer[use-color-palette] {\n    --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;\n}\nytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS] {\n    background-color: var(--yt-spec-static-brand-white) !important;\n    color: #009688 !important;\n    z-index: 1 !important;\n}\n:focus {\n    outline: -webkit-focus-ring-color auto 0px !important;\n}\n\n/* griggorii short menu edit element style */\nelement.style {\n}\noverlay-renderer[modern][vertical] #actions.ytd-reel-player-overlay-renderer {\n    width: 48px !important;\n    padding: 0 2px !important;\n    justify-content: center !important;\n}\nytd-reel-player-overlay-renderer[vertical] #actions.ytd-reel-player-overlay-renderer {\n    display: flexbox !important;\n    display: flex !important;\n    flex-direction: column !important;\n}\n<style>\n#actions.ytd-global-reel-player-overlay-renderer {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center;\n    --yt-button-text-transform: none !important;\n    max-width: 100% !important;\n    pointer-events: auto !important;\n    align-items: start !important;\n    flex-wrap: wrap !important;\n}\n.overlay.ytd-global-reel-player-overlay-renderer {\n    display: flex !important;\n    flex-direction: column !important;\n    width: var(--ytd-shorts-side-overlay-width) !important;\n    max-width: var(--ytd-shorts-max-side-overlay-width) !important;\n    height: 100% !important;\n    justify-content: flex-end !important;\n    pointer-events: auto !important;\n}\nytd-global-reel-player-overlay-renderer {\n    --ytd-shorts-max-side-overlay-width: auto !important;\n    transform: scale(0.9) !important;\n    transition: 0.9s !important;\n    pointer-events: none !important;\n    justify-content: flex-end !important;\n}\n\n/* double fix test subscr buitton player playlist*/\n.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {\n    color: #fff !important;\n    background-color: #c00 !important;\n}\n\n   /* griggorii test subtitles */\nytd-watch-metadata:not([modern-metapanel-order]) #owner.ytd-watch-metadata {\n    border: 1px solid var(--yt-spec-10-percent-layer) !important;\n    border-radius: 24px !important;\n    padding: 0 4px 0 12px !important;\n}\n/*Caption Window BG and Blur*/\n  .caption-window {\n   background-color: rgba(50, 50, 50, .2) !important;/*CHANGE THE DECIMAL VALUE TO ADJUST THE DARKNESS OF THE CAPTION WINDOW*/\n   backdrop-filter: blur(2px) !important;\n   border-radius: 24px !important;\n  }\n/*subtitles bg color / backdrop filter*/\n.caption-window {\n\ttext-align: center !important;\n\twidth: auto !important;\n\tleft: 50% !important;\n\tmargin-left: 0px !important;\n\ttransform: translate(-50%, 0%) !important;\n\tpadding: 2px !important;\n}\n\n\n\nytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL] #time.ytd-macro-markers-list-item-renderer {\n\tborder-radius: 1px !important;\n}\n\n/* griggorii blur assistant preview video */\nspan.ytd-thumbnail-overlay-loading-preview-renderer{\n\tborder-radius: 8px !important;\n\tbackground-color: rgb(0 0 0 / 45%) !important;\n\tbackdrop-filter: blur(10px) !important;\n}\n\n\n/* griggorii view the button Subscribe the appearance of your personal channel */\n.ytp-sb-subscribe.ytp-sb-disabled, .ytp-sb-unsubscribe.ytp-sb-disabled {\n    background-color: #c00 !important;\n}\n.ytp-sb-subscribe, .ytp-sb-unsubscribe {\n    border-radius: 24px !important;\n}\n\n/*live chat info card*/\n#card.yt-live-chat-viewer-engagement-message-renderer {\n\tborder-radius: 24px !important;\n}\n/*griggorii filter text fix*/\n#label.ytd-search-filter-renderer {\n\tbackground: none !important;\n}\n\n   /*griggorii edit orig V14 markers video*/\n.ytp-timed-markers-container {\n    -webkit-transform: scaleY(0.6) !important;\n    transform: scaleY(0.6) !important;\n    top: 1px !important;\n    z-index: 40 !important;\n}\n.ytp-timed-markers-container, .ytp-clip-start-exclude, .ytp-clip-end-exclude {\n    position: absolute !important;\n    left: 0 !important;\n    bottom: 0 !important;\n    width: 100% !important;\n    height: 100% !important;\n    -webkit-transform-origin: 0 0 !important;\n    transform-origin: 0 0 !important;\n}\n\n   /*griggorii pinned comments in youtube color*/\nytd-author-comment-badge-renderer {\n    /*--ytd-author-comment-badge-name-color: var(--yt-spec-text-primary);*/\n    /*--ytd-author-comment-badge-name-color: var(--yt-spec-text-primary) !important;*/\n    background-color: #ff0000 !important;\n}\n\n /* griggorii preview page property */\n#content #contents {\n    /*scrollbar-width: thin;*/\n    /*scrollbar-width: thin !important;*/\n}\n#contents.ytd-rich-grid-renderer {\n    display: flex !important;\n    flex-wrap: wrap !important;\n    justify-content: flex-start !important;\n}\nStyle Attribute {\n    --ytd-rich-grid-items-per-row: 2 !important;\n    --ytd-rich-grid-posts-per-row: 2 !important;\n    --ytd-rich-grid-slim-items-per-row: 4 !important;\n    --ytd-rich-grid-game-cards-per-row: 4 !important;\n}\n\n /* griggorii copy backend setting V14 rounded ad widget */\n.ytp-exp-ppp-update .ytp-paid-content-overlay-link {\n\tborder-radius: 24px !important;\n\tbackdrop-filter: blur(10px) !important;\n\tbackground-color: transparent !important;\n}\n\n/* Notify youtube 🔔 size griggorii fix */\n#contentWrapper > ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] {\n    width: 370px;   }\n}\n\n/* griggorii blur left panel off */\n/* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */\n    /*backdrop-filter: blur(10px) !important;*/\n    /*-webkit-backdrop-filter: blur(10px) !important;*/\n    /*background: rgb(35 35 35 / 0) !important;*/\n    /*overflow: hidden !important;*/\n}\n\nytd-comments-entry-point-header-renderer:not([modern-metapanel]) {\n}\n\n.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {\n    /*background-color: #8e8e8e;*/\n    /*border: 1px solid #424242;*/\n    border-radius: 24px !important;\n}\n\n\n/* griggorii beta theme dark keyboard */\n.vk-box {\n    height: auto !important;\n    background-color: #282829 !important;\n    border: 0px solid #282829 !important;\n    border: 0px solid rgba(0,0,0,0.3) !important;\n    font-family: arial,sans-serif !important;\n    position: fixed !important;\n    box-shadow: 0px 0px rgba(0,0,0,0.2) !important;\n}\n.vk-t {\n    color: #ffffff !important;\n}\n",
+  "customJS": false,
+  "customJSCode": "",
+  "cvfIncludeSubtitles": false,
+  "cvfQuality": 0.92,
+  "cvfType": "JPEG",
+  "embedModeWindow": "current",
+  "extensionOptionsPageLayout": "vertical",
+  "extensionShortcutsAdjustPlaybackRateByValue": 0.25,
+  "extensionShortcutsAdjustVolumeByValue": 5,
+  "extensionShortcutsSeekByValue": 5,
+  "gotoChapterStart": "mousedown1",
+  "hotkeys": {
+    "adjustAudioPanLeft": null,
+    "adjustAudioPanRight": null,
+    "backToComment": null,
+    "captureVideoFrame": null,
+    "captureVideoFramePNG": null,
+    "captureVideoFrameToClipboard": null,
+    "cycleCommentsSortBy": null,
+    "cycleMouseControlActive": null,
+    "cycleSubtitlesPosition": null,
+    "cycleYtpControlsMode": null,
+    "decreaseSubtitlesOffsetY": null,
+    "embedMode": null,
+    "enterPictureInPicture": null,
+    "focusCommentInputOrAddTimestamp": null,
+    "focusSearchBox": null,
+    "getVideoDownloadLink": null,
+    "increaseSubtitlesOffsetY": null,
+    "toggleAudioAutoGain": null,
+    "toggleAudioHPF": null,
+    "toggleAudioMonoMix": null,
+    "toggleCinemaMode": null,
+    "toggleCleanPlayer": null,
+    "toggleCleanSite": null,
+    "toggleCommentsVisibility": null,
+    "toggleContentFilters": null,
+    "toggleSidebarVisibility": null,
+    "toggleSkipVideoBlockGlobal": null,
+    "toggleSkipVideoBlockIndividual": null,
+    "toggleSubtitlesDisabled": null,
+    "toggleVideoDimmer": null,
+    "toggleVideoPlaybackInfo": null,
+    "toggleYtpControlsHidden": null
+  },
+  "initialAutoPlay": false,
+  "initialChannelPageTab": false,
+  "initialFullscreen": false,
+  "initialLoop": false,
+  "initialPlaybackRate": false,
+  "initialPlaybackRateLevel": 1,
+  "initialSubtitles": false,
+  "initialTheatreMode": false,
+  "initialTheme": false,
+  "initialVolume": false,
+  "initialVolumeLevel": 50,
+  "inlinePlayback": false,
+  "instantFullscreen": false,
+  "instantFullscreenSmooth": false,
+  "instantTogglePlay": false,
+  "interactionZonesMouseButton": 1,
+  "interactionZonesMouseButtonPresets": [
+    {
+      "actionMap": [
+        {
+          "action": "setPlaybackRate",
+          "key": "mousedown0+g020B",
+          "payload": 1
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g020B"
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g380B"
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g9B0B"
+        },
+        {
+          "action": "toggleMute",
+          "key": "mousedown0+g9B0B"
+        }
+      ],
+      "gridColumns": 3,
+      "gridColumnsRatios": [
+        3,
+        6,
+        3
+      ],
+      "gridRows": 1,
+      "gridRowsRatios": [
+        12
+      ],
+      "name": "Default",
+      "type": "mouseButton"
+    },
+    {
+      "actionMap": [
+        {
+          "action": "setPlaybackRate",
+          "key": "mousedown0+g020B",
+          "payload": 1
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g020B"
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g380B"
+        },
+        {
+          "action": "toggleMute",
+          "key": "mousedown0+g9B0B"
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g9B0B"
+        }
+      ],
+      "gridColumns": 3,
+      "gridColumnsRatios": [
+        3,
+        6,
+        3
+      ],
+      "gridRows": 1,
+      "gridRowsRatios": [
+        12
+      ],
+      "name": "Default (customizable)",
+      "type": "mouseButton"
+    },
+    {
+      "actionMap": [
+        {
+          "action": "toggleMute",
+          "key": "mousedown0+g9B03"
+        },
+        {
+          "action": "setVolume",
+          "key": "ctrl+mousedown0+g9B03",
+          "payload": 80
+        },
+        {
+          "action": "toggleMute",
+          "key": "mousedown0+g9B47"
+        },
+        {
+          "action": "setVolume",
+          "key": "ctrl+mousedown0+g9B47",
+          "payload": 50
+        },
+        {
+          "action": "toggleMute",
+          "key": "mousedown0+g9B8B"
+        },
+        {
+          "action": "setVolume",
+          "key": "ctrl+mousedown0+g9B8B",
+          "payload": 20
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g388B"
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g3847"
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g3803"
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "mousedown0+g028B",
+          "payload": 1
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "ctrl+mousedown0+g028B",
+          "payload": 0.25
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "mousedown0+g0247",
+          "payload": 1
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "ctrl+mousedown0+g0247",
+          "payload": 2
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "mousedown0+g0203",
+          "payload": 1
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "ctrl+mousedown0+g0203",
+          "payload": 4
+        }
+      ],
+      "gridColumns": 3,
+      "gridColumnsRatios": [
+        3,
+        6,
+        3
+      ],
+      "gridRows": 3,
+      "gridRowsRatios": [
+        4,
+        4,
+        4
+      ],
+      "name": "Intermediate Control",
+      "type": "mouseButton"
+    },
+    {
+      "actionMap": [
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g388B"
+        },
+        {
+          "action": "viewChapter",
+          "key": "mousedown2+g388B"
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g3847"
+        },
+        {
+          "action": "scrollBackToComment",
+          "key": "mousedown2+g3847"
+        },
+        {
+          "action": "captureVideoFrame",
+          "key": "ctrl+mousedown0+g3803"
+        },
+        {
+          "action": "enterPictureInPicture",
+          "key": "mousedown1+g3803"
+        },
+        {
+          "action": "toggleMute",
+          "key": "mousedown0+g9B03"
+        },
+        {
+          "action": "setVolume",
+          "key": "ctrl+mousedown0+g9B03",
+          "payload": 80
+        },
+        {
+          "action": "getVideoDownloadLink",
+          "key": "mousedown2+g9B03"
+        },
+        {
+          "action": "toggleEmbedMode",
+          "key": "mousedown1+g9B03"
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "mousedown0+g0203",
+          "payload": 1
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "ctrl+mousedown0+g0203",
+          "payload": 4
+        },
+        {
+          "action": "getVideoURLAtCurrentTime",
+          "key": "mousedown2+g0203"
+        },
+        {
+          "action": "toggleMiniplayer",
+          "key": "mousedown1+g0203"
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "mousedown0+g028B",
+          "payload": 1
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "ctrl+mousedown0+g028B",
+          "payload": 0.25
+        },
+        {
+          "action": "toggleVideoInfo",
+          "key": "mousedown2+g028B"
+        },
+        {
+          "action": "toggleMute",
+          "key": "mousedown0+g9B8B"
+        },
+        {
+          "action": "setVolume",
+          "key": "ctrl+mousedown0+g9B8B",
+          "payload": 20
+        },
+        {
+          "action": "togglePlayerSettings",
+          "key": "mousedown2+g9B8B"
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "mousedown0+g0247",
+          "payload": 1
+        },
+        {
+          "action": "setPlaybackRate",
+          "key": "ctrl+mousedown0+g0247",
+          "payload": 2
+        },
+        {
+          "action": "getVideoEmbedCode",
+          "key": "mousedown2+g0247"
+        },
+        {
+          "action": "toggleMute",
+          "key": "mousedown0+g9B47"
+        },
+        {
+          "action": "setVolume",
+          "key": "ctrl+mousedown0+g9B47",
+          "payload": 50
+        },
+        {
+          "action": "toggleVideoDimmer",
+          "key": "mousedown2+g9B47"
+        }
+      ],
+      "gridColumns": 3,
+      "gridColumnsRatios": [
+        3,
+        6,
+        3
+      ],
+      "gridRows": 3,
+      "gridRowsRatios": [
+        4,
+        4,
+        4
+      ],
+      "name": "Advanced Control",
+      "type": "mouseButton"
+    }
+  ],
+  "interactionZonesMouseWheel": 1,
+  "interactionZonesMouseWheelPresets": [
+    {
+      "actionMap": [
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheelup+g0203",
+          "payload": 0.5
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheeldown+g0203",
+          "payload": -0.5
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheelup+g0247",
+          "payload": 0.25
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheeldown+g0247",
+          "payload": -0.25
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheelup+g028B",
+          "payload": 0.1
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheeldown+g028B",
+          "payload": -0.1
+        },
+        {
+          "action": "seekBy",
+          "key": "wheelup+g3803",
+          "payload": "5%"
+        },
+        {
+          "action": "seekBy",
+          "key": "wheeldown+g3803",
+          "payload": "-5%"
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheelup+g3803",
+          "payload": "10%"
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheeldown+g3803",
+          "payload": "-10%"
+        },
+        {
+          "action": "seekBy",
+          "key": "wheelup+g3847",
+          "payload": 5
+        },
+        {
+          "action": "seekBy",
+          "key": "wheeldown+g3847",
+          "payload": -5
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheelup+g3847",
+          "payload": "1c"
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheeldown+g3847",
+          "payload": "-1c"
+        },
+        {
+          "action": "seekBy",
+          "key": "wheelup+g388B",
+          "payload": 1
+        },
+        {
+          "action": "seekBy",
+          "key": "wheeldown+g388B",
+          "payload": -1
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheelup+g388B",
+          "payload": "1f"
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheeldown+g388B",
+          "payload": "-1f"
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup+g9B03",
+          "payload": 10
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown+g9B03",
+          "payload": -10
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup+g9B47",
+          "payload": 5
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown+g9B47",
+          "payload": -5
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup+g9B8B",
+          "payload": 1
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown+g9B8B",
+          "payload": -1
+        }
+      ],
+      "gridColumns": 3,
+      "gridColumnsRatios": [
+        3,
+        6,
+        3
+      ],
+      "gridRows": 3,
+      "gridRowsRatios": [
+        4,
+        4,
+        4
+      ],
+      "name": "Default",
+      "type": "mouseWheel"
+    },
+    {
+      "actionMap": [
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheelup+g0203",
+          "payload": 0.5
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheeldown+g0203",
+          "payload": -0.5
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheelup+g0247",
+          "payload": 0.25
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheeldown+g0247",
+          "payload": -0.25
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheelup+g028B",
+          "payload": 0.1
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheeldown+g028B",
+          "payload": -0.1
+        },
+        {
+          "action": "seekBy",
+          "key": "wheelup+g3803",
+          "payload": "5%"
+        },
+        {
+          "action": "seekBy",
+          "key": "wheeldown+g3803",
+          "payload": "-5%"
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheelup+g3803",
+          "payload": "10%"
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheeldown+g3803",
+          "payload": "-10%"
+        },
+        {
+          "action": "seekBy",
+          "key": "wheelup+g3847",
+          "payload": 5
+        },
+        {
+          "action": "seekBy",
+          "key": "wheeldown+g3847",
+          "payload": -5
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheelup+g3847",
+          "payload": "1c"
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheeldown+g3847",
+          "payload": "-1c"
+        },
+        {
+          "action": "seekBy",
+          "key": "wheelup+g388B",
+          "payload": 1
+        },
+        {
+          "action": "seekBy",
+          "key": "wheeldown+g388B",
+          "payload": -1
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheelup+g388B",
+          "payload": "1f"
+        },
+        {
+          "action": "seekBy",
+          "key": "ctrl+wheeldown+g388B",
+          "payload": "-1f"
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup+g9B03",
+          "payload": 10
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown+g9B03",
+          "payload": -10
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup+g9B47",
+          "payload": 5
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown+g9B47",
+          "payload": -5
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup+g9B8B",
+          "payload": 1
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown+g9B8B",
+          "payload": -1
+        }
+      ],
+      "gridColumns": 3,
+      "gridColumnsRatios": [
+        3,
+        6,
+        3
+      ],
+      "gridRows": 3,
+      "gridRowsRatios": [
+        4,
+        4,
+        4
+      ],
+      "name": "Default (customizable)",
+      "type": "mouseWheel"
+    },
+    {
+      "actionMap": [
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup2+g0B0B",
+          "payload": 5
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown2+g0B0B",
+          "payload": -5
+        }
+      ],
+      "gridColumns": 1,
+      "gridColumnsRatios": [
+        12
+      ],
+      "gridRows": 1,
+      "gridRowsRatios": [
+        12
+      ],
+      "name": "Right Mouse Button + Wheel: Volume",
+      "type": "mouseWheel"
+    },
+    {
+      "actionMap": [
+        {
+          "action": "seekBy",
+          "key": "wheelup+g0B6B",
+          "payload": 1
+        },
+        {
+          "action": "seekBy",
+          "key": "wheeldown+g0B6B",
+          "payload": -1
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup+g0B05",
+          "payload": 5
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown+g0B05",
+          "payload": -5
+        }
+      ],
+      "gridColumns": 1,
+      "gridColumnsRatios": [
+        12
+      ],
+      "gridRows": 2,
+      "gridRowsRatios": [
+        6,
+        6
+      ],
+      "name": "Horizontal Split: Volume & Seek",
+      "type": "mouseWheel"
+    },
+    {
+      "actionMap": [
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheelup+g6B0B",
+          "payload": 5
+        },
+        {
+          "action": "adjustVolumeBy",
+          "key": "wheeldown+g6B0B",
+          "payload": -5
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheelup+g050B",
+          "payload": 0.1
+        },
+        {
+          "action": "adjustPlaybackRateBy",
+          "key": "wheeldown+g050B",
+          "payload": -0.1
+        }
+      ],
+      "gridColumns": 2,
+      "gridColumnsRatios": [
+        6,
+        6
+      ],
+      "gridRows": 1,
+      "gridRowsRatios": [
+        12
+      ],
+      "name": "Vertical Split: Speed & Volume",
+      "type": "mouseWheel"
+    }
+  ],
+  "keyboardControlKeys": [
+    {
+      "action": "seekBy",
+      "key": null,
+      "payload": "1c"
+    },
+    {
+      "action": "seekBy",
+      "key": null,
+      "payload": "-1c"
+    },
+    {
+      "action": "seekBy",
+      "key": null,
+      "payload": 1
+    },
+    {
+      "action": "seekBy",
+      "key": null,
+      "payload": -1
+    },
+    {
+      "action": "adjustVolumeBy",
+      "key": null,
+      "payload": 1
+    },
+    {
+      "action": "adjustVolumeBy",
+      "key": null,
+      "payload": -1
+    },
+    {
+      "action": "adjustPlaybackRateBy",
+      "key": null,
+      "payload": 0.1
+    },
+    {
+      "action": "adjustPlaybackRateBy",
+      "key": null,
+      "payload": -0.1
+    }
+  ],
+  "maxMouseControlArea": false,
+  "mmbToggleFullscreen": false,
+  "mouseControlActive": true,
+  "mouseControlDisableDoubleClick": false,
+  "mouseControlElement": "player",
+  "mouseControlInactiveWheelWhilePaused": false,
+  "mouseControlMiniplayer": false,
+  "mouseControlModKey": "shift",
+  "mouseControlShorts": true,
+  "pausePreviousActiveVideo": false,
+  "playerBackgroundColor": false,
+  "playerViewChangeDelayInBackground": 0,
+  "playlistAutoplayNext": true,
+  "playlistDuration": true,
+  "preventAutoPause": false,
+  "replayOnPreviousChapter": true,
+  "scrollbarThin": false,
+  "searchResultsNavigation": false,
+  "searchResultsOpenInNewTab": false,
+  "shortsAutoplayNext": false,
+  "shortsLoop": false,
+  "shortsOpenInNormalPlayer": false,
+  "shortsPlayerOverlay": false,
+  "sidebarRelatedHidden": false,
+  "sidebarSectionFixed": false,
+  "sidebarSectionHidden": false,
+  "skipVideoBlockGlobal": false,
+  "skipVideoBlockGlobalData": {
+    "enabled": true,
+    "start": ""
+  },
+  "skipVideoBlockIndividual": false,
+  "skipVideoBlockIndividualData": [
+    {
+      "channelName": "TED",
+      "enabled": false,
+      "id": "2467085a-e8b4-413c-a71e-4e4825581dc1",
+      "start": "12",
+      "videoTitle": ""
+    }
+  ],
+  "stickyPlayer": false,
+  "stickyPlayerHeight": 320,
+  "stickyPlayerInactiveAtEnd": false,
+  "stickyPlayerInactiveWhilePaused": false,
+  "stickyPlayerOffsetX": 0,
+  "stickyPlayerOffsetY": 0,
+  "stickyPlayerPosition": "default",
+  "stickyPlayerThreshold": 0.5,
+  "stickyPlayerType": "wide",
+  "subtitlesDisabled": false,
+  "subtitlesOffsetY": 2,
+  "subtitlesPosition": false,
+  "subtitlesPositioningEnabled": true,
+  "themeType": "system",
+  "thumbnailViewFullSize": false,
+  "thumbnailViewFullSizeByMouse": "ctrl+mousedown0",
+  "transparentButtonsAndDescription": false,
+  "upNextVideo": false,
+  "videoDescription": false,
+  "videoDimmer": false,
+  "videoDimmerBrightness": 0.51,
+  "videoDownloadLinkMode": "copy",
+  "videoDownloadLinkQuery": "youtube-dl https://www.youtube.com/watch?v=%s",
+  "videoPlaybackInfo": false,
+  "videoPlaybackInfoBasedOnPlaybackRate": false,
+  "videoPlaybackInfoCurrentChapter": true,
+  "videoPlaybackInfoCurrentTime": true,
+  "videoPlaybackInfoPlaybackRate": false,
+  "videoPlaybackInfoRemainingTime": false,
+  "videoPlaybackInfoStyleFontSize": 1,
+  "videoPlaybackInfoStyleOpacity": 1,
+  "videoPlaybackInfoVolume": false,
+  "ytpAutohideDelay": 3000,
+  "ytpBezelTextDurationActionSeek": 750,
+  "ytpBezelTextDurationShort": 750,
+  "ytpBezelTextPosition": false,
+  "ytpBezelTextPositionOffset": 10,
+  "ytpControlsHidden": false,
+  "ytpControlsHiddenPaused": true,
+  "ytpControlsHiddenPlaying": true,
+  "ytpControlsHiddenShowOnHover": false,
+  "ytpControlsMiniRefreshRate": 1000,
+  "ytpControlsMode": "default",
+  "ytpControlsModeAvailableForCycle": [
+    "default",
+    "mini",
+    "combined",
+    "persistent-mini",
+    "persistent-default"
+  ],
+  "ytpMuteButtonShowVolume": false,
+  "ytpPreferredQuality": false,
+  "ytpPreferredQualityBackground": false,
+  "ytpPreferredQualityEmbedded": false,
+  "ytpPreferredQualityFullscreen": false,
+  "ytpPreferredQualityRevert": false,
+  "ytpPreferredQualityTheater": false,
+  "ytpProgressBarAtBottom": false,
+  "ytpProgressBarOpacity": 0.5,
+  "ytpTimeBasedOnPlaybackRate": false,
+  "ytpTimeDisplayCustom": false,
+  "ytpTimeDisplayCustomTemplate": "",
+  "zenMode": false,
+  "zenModeStylesBlur": 8,
+  "zenModeStylesOpacity": 16
+}

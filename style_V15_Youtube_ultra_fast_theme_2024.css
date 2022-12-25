@@ -1,0 +1,490 @@
+/*griggorii youtube UI 2024 project ultra fast theme 2024 mobile or tablet or all device copyright CC BY-SA 4.0*/
+/*https://github.com/Griggorii/YouTubeFluent | style_V15_Youtube-beta_ultra_fast_theme_2024.css*/
+/*Проект почти завершен donte or support sberbank rub 4276 4001 0004 2457 by Griggorii*/
+/* griggorii fix test important transparent delete all parametr lag change dark theme or light */
+yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
+    border-radius: 24px !important;
+}
+
+   /*griggorii button outline | knopka vxoda otvetov itd*/
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+color: var(--yt-spec-text-primary-inverse) !important;
+}
+.yt-spec-button-shape-next--size-m {
+    padding: 0 16px !important;
+    /*height: 36px !important;*/
+    font-size: 14px !important;
+    line-height: 36px !important;
+    /*border-radius: 24px !important;*/
+}
+.yt-spec-button-shape-next {
+    position: relative !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+    min-width: 0 !important;
+    text-transform: none !important;
+    font-family: "Roboto","Arial",sans-serif !important;
+    cursor: pointer !important;
+    outline-width: 0 !important;
+    box-sizing: border-box !important;
+    /*background: none !important;*/
+}
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
+    color: #0066ff !important;
+    /*color: #0657d4 !important;*/
+    /*color: #107516 !important;*/
+    border-color: var(--yt-spec-outline);
+}
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline:hover{
+    background-color: #0066ffa6 !important;
+    /*background-color: #0f0f0f !important;*/
+    border-color: transparent !important;
+}
+
+/* griggorii color comment or close player */
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text{
+    color: #0066ff !important;
+    /*color: #107516 !important;*/
+    /*color: #0657d4 !important;*/
+}
+
+/*griggorii name video*/
+ytd-watch-metadata {
+    display: block !important;
+    border-color: transparent !important;
+}
+   /* griggorii subscr fix */
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+    /* color: var(--yt-spec-text-primary-inverse); */
+    color: #fff !important;
+    background-color: #c00 !important;
+}
+/* griggorii test button border radius*/
+ytd-button-renderer #button.ytd-button-renderer * {
+    background-color: #8664641c !important;
+    border-radius: 24px !important;
+}
+/*live badge border radius*/
+.badge-style-type-live-now.ytd-badge-supported-renderer {
+	border-radius: 24px !important;
+}
+/*griggorii rounded corners stroke icons live badge border radius*/
+.badge.ytd-badge-supported-renderer {
+    border-radius: 24px !important;
+}
+/*griggorii live green icon*/
+.badge-style-type-live-now-alternate.ytd-badge-supported-renderer {
+    background: #085d16 !important;
+    color: #ffffff !important;
+}
+/*griggorii new live red icon*/
+.badge-style-type-simple.ytd-badge-supported-renderer {
+    background: #d00808 !important;
+    color: #ffffff !important;
+}
+/*channel name border radius fix*/
+#container.ytd-channel-name {
+	border-radius: 24px !important;
+}
+/*endscreen channel border radius*/
+.ytp-ce-channel, .ytp-ce-channel .ytp-ce-expanding-image, .ytp-ce-channel .ytp-ce-element-shadow {
+	border-radius: 24px !important;
+}
+/*endscreen playlist border radius top left*/
+.ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-top-left-quad {
+	border-radius: 24px !important;
+}
+/*endscreen playlist border radius top right*/
+.ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-top-right-quad {
+	border-radius: 24px !important;
+}
+/*endscreen playlist border radius bottom right*/
+.ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-bottom-right-quad {
+	border-radius: 24px !important;
+}
+/*endscreen playlist border radius bottom left*/
+.ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-bottom-left-quad {
+	border-radius: 24px !important;
+}
+/*endscreen website border radius top left*/
+.ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-top-left-quad {
+	border-radius: 24px !important;
+}
+/*endscreen website border radius top right*/
+.ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-top-right-quad {
+	border-radius: 24px !important;
+}
+/*endscreen website border radius bottom left*/
+.ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-bottom-left-quad {
+	border-radius: 24px !important;
+}
+/*endscreen website border radius bottom right*/
+.ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-bottom-right-quad {
+	border-radius: 24px !important;
+}
+/*endscreen website image border radius*/
+.ytp-ce-expanding-image {
+	border-radius: 24px !important;
+}
+/*gaming info container border radius*/
+ytd-rich-metadata-renderer.style-scope.ytd-rich-metadata-row-renderer {
+	border-radius: 24px !important;
+}
+/*playlist highlighter border radius*/
+ytd-playlist-panel-video-renderer#playlist-items {
+	border-radius: 24px;
+}
+/*container border radius*/
+div#container {
+	border-radius: 24px !important;
+}
+/*playlist header border radius*/
+.header.style-scope.ytd-playlist-panel-renderer {
+	border-radius: 24px 24px 24px 24px !important;
+}
+/*video (playlist) border radius*/
+ytd-playlist-video-renderer {
+	border-radius: 24px !important;
+}
+/*sub button border radius*/
+paper-button.ytd-subscribe-button-renderer {
+	border-radius: 24px !important;
+}
+#items.yt-horizontal-list-renderer>ytd-post-renderer.yt-horizontal-list-renderer {
+	border-radius: 24px !important;
+}
+.ytp-flyout-cta .ytp-flyout-cta-icon {
+	border-radius: 24px !important;
+}
+a.ytp-title-channel-logo {
+	border-radius: 24px !important;
+}
+
+/*movie player border radius / shadow griggorii 24 aggresive circle bad change loyalty 18px*/
+.ytd-video-preview, .ytp-small-mode {
+	border-radius: 18px !important;
+}
+/*movie player border radius / shadow*/
+#movie_player, .video-stream, .ytp-small-mode {
+	border-radius: 18px !important;
+	box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.5);
+}
+
+   /* griggorii test */
+Style Attribute {
+    font-size: 10px !important;
+    font-family: Roboto, Arial, sans-serif !important;
+    --twfyt-persistent-progress-bar-opacity: 0.5 !important;
+}
+   /* griggorii test */
+ytd-thumbnail-overlay-toggle-button-renderer {
+    border-radius: 24px !important;
+}
+ytd-thumbnail-overlay-toggle-button-renderer * {
+    border-radius: 24px !important;
+}
+ytd-thumbnail-overlay-time-status-renderer {
+	border-radius: 24px !important;
+	padding: 6px 6px !important;
+	background-color: rgb(0 0 0 / 35%) !important;
+	backdrop-filter: blur(10px) !important;
+}
+/*sidebar hover border radius*/
+.ytd-guide-section-renderer #endpoint:hover {
+	border-radius: 24px !important;
+}
+/*sidebar selected border radius*/
+ytd-guide-entry-renderer[active] {
+	border-radius: 24px !important;
+}
+   /* griggorii fix subscr short */
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
+    color: #c00 !important;
+    background-color: transparent !important;
+}
+/*thumbnail border radius griggorii 24px default 2 , default change lag short text 24>2*/
+img#img {
+	border-radius: 2px !important;
+	/*border-radius: 24px !important;*/
+}
+/*borderless , color search bar editor griggorii*/
+#container.ytd-searchbox {
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
+        box-shadow: !important;
+	border: none !important;
+	border-radius: 18px 0px 0px 18px !important;
+        background-color: #332c2c21 !important;
+
+}
+/*search icon background color editor griggorii*/
+#search-icon-legacy.ytd-searchbox {
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
+        box-shadow: !important;
+	border-radius: 0px 18px 18px 0px !important;
+	background-color: #332c2c21 !important;
+}
+
+ /* griggorii test effect form shadow button */
+.yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {
+    background-color: #0303030d !important;
+}
+.yt-spec-touch-feedback-shape__fill {
+    /* opacity: 0; */
+}
+
+/*progress bar / next button preview border radius griggorii 24 aggresive circle bad change loyalty 18px*/
+.ytp-tooltip.ytp-bottom, .ytp-tooltip-bg, a.ytp-next-button.ytp-button {
+	border-radius: 18px !important;
+}
+
+   /* griggorii transparent theme dark test hsla */
+html[system-icons][dark], html[system-icons] [dark] {
+    --yt-spec-icon-inactive: #fff !important;
+    --yt-spec-icon-disabled: #717171 !important;
+    --yt-spec-brand-icon-inactive: #fff !important;
+    --yt-spec-text-primary: #f1f1f1 !important;
+    --yt-spec-text-primary-inverse: #0f0f0f !important;
+}
+html[darker-dark-theme][dark], [darker-dark-theme] [dark] {
+    --yt-spec-text-primary: #f1f1f1 !important;
+    --ytd-searchbox-border-color: #909090 !important;
+    --ytd-searchbox-legacy-border-color: #3030302e !important;
+    --ytd-searchbox-legacy-button-border-color: #30303030 !important;
+    --ytd-searchbox-legacy-button-focus-color: #ffffff14 !important;
+    --ytd-searchbox-legacy-button-hover-color: #ffffff !important;
+    --ytd-searchbox-legacy-button-hover-border-color: #3030302e !important;
+    --ytd-searchbox-legacy-button-icon-color: hsla(0, 100%, 100%, 0; --ytd-searchbox-background: hsl(0deg 0% 7% / 18%);7%) !important;
+    --ytd-searchbox-background: #1212122e !important;
+    --yt-spec-base-background: #0f0f0f57 !important;
+    --yt-spec-raised-background: #212121 !important;
+    --yt-spec-menu-background: #282828 !important;
+    --yt-spec-inverted-background: #f1f1f1 !important;
+}
+html[dark], [dark] {
+    --ytd-searchbox-border-color: #ffffff !important;
+    --ytd-searchbox-legacy-border-color: #303030 !important;
+    --ytd-searchbox-legacy-border-shadow-color: hsla(0, 0%, 0%, 0) !important;
+    --ytd-searchbox-legacy-button-color: hsla(0, 0%, 100%, 0.08); !important;
+    --ytd-searchbox-legacy-button-border-color: hsl(0, 0%, 18.82%) !important;
+    --ytd-searchbox-legacy-button-focus-color: hsla(0, 0%, 100%, 0.08) !important;
+    --ytd-searchbox-legacy-button-hover-color: hsla(0, 0%, 100%, 0.08) !important;
+    --ytd-searchbox-legacy-button-hover-border-color: hsl(0, 0%, 18.82%) !important;
+    --ytd-searchbox-legacy-button-icon-color: hsla(0, 100%, 100%, 0.5) !important;
+    --ytd-searchbox-background: hsl(0, 0%, 7%) !important;
+    --ytd-searchbox-text-color: hsla(0, 100%, 100%, 0.88) !important;
+}
+/*thumbnail scale effect griggorii + 15 default scale 1.05 */
+ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
+	transform: scale(1.13) !important;
+        transition: 0.9s !important;
+        display: block !important;
+        z-index:99 !important; 
+
+}
+/*channel menu item border radius*/
+/*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme */
+ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-item.list-item.style-scope.ytd-account-settings {
+	border-radius: 2px !important;
+}
+/* griggorii inheritance texture color preview*/
+ytd-playlist-panel-renderer[use-color-palette] {
+    --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;
+}
+ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS] {
+    background-color: var(--yt-spec-static-brand-white) !important;
+    color: #009688 !important;
+    z-index: 1 !important;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+/* griggorii short menu edit element style */
+element.style {
+}
+overlay-renderer[modern][vertical] #actions.ytd-reel-player-overlay-renderer {
+    width: 48px !important;
+    padding: 0 2px !important;
+    justify-content: center !important;
+}
+ytd-reel-player-overlay-renderer[vertical] #actions.ytd-reel-player-overlay-renderer {
+    display: flexbox !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+<style>
+#actions.ytd-global-reel-player-overlay-renderer {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    --yt-button-text-transform: none !important;
+    max-width: 100% !important;
+    pointer-events: auto !important;
+    align-items: start !important;
+    flex-wrap: wrap !important;
+}
+.overlay.ytd-global-reel-player-overlay-renderer {
+    display: flex !important;
+    flex-direction: column !important;
+    width: var(--ytd-shorts-side-overlay-width) !important;
+    max-width: var(--ytd-shorts-max-side-overlay-width) !important;
+    height: 100% !important;
+    justify-content: flex-end !important;
+    pointer-events: auto !important;
+}
+ytd-global-reel-player-overlay-renderer {
+    --ytd-shorts-max-side-overlay-width: auto !important;
+    transform: scale(0.9) !important;
+    transition: 0.9s !important;
+    pointer-events: none !important;
+    justify-content: flex-end !important;
+}
+
+/* double fix test subscr buitton player playlist*/
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
+    color: #fff !important;
+    background-color: #c00 !important;
+}
+
+   /* griggorii test subtitles */
+ytd-watch-metadata:not([modern-metapanel-order]) #owner.ytd-watch-metadata {
+    border: 1px solid var(--yt-spec-10-percent-layer) !important;
+    border-radius: 24px !important;
+    padding: 0 4px 0 12px !important;
+}
+/*Caption Window BG and Blur*/
+  .caption-window {
+   background-color: rgba(50, 50, 50, .2) !important;/*CHANGE THE DECIMAL VALUE TO ADJUST THE DARKNESS OF THE CAPTION WINDOW*/
+   backdrop-filter: blur(2px) !important;
+   border-radius: 24px !important;
+  }
+/*subtitles bg color / backdrop filter*/
+.caption-window {
+	text-align: center !important;
+	width: auto !important;
+	left: 50% !important;
+	margin-left: 0px !important;
+	transform: translate(-50%, 0%) !important;
+	padding: 2px !important;
+}
+
+
+
+ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL] #time.ytd-macro-markers-list-item-renderer {
+	border-radius: 1px !important;
+}
+
+/* griggorii blur assistant preview video */
+span.ytd-thumbnail-overlay-loading-preview-renderer{
+	border-radius: 8px !important;
+	background-color: rgb(0 0 0 / 45%) !important;
+	backdrop-filter: blur(10px) !important;
+}
+
+
+/* griggorii view the button Subscribe the appearance of your personal channel */
+.ytp-sb-subscribe.ytp-sb-disabled, .ytp-sb-unsubscribe.ytp-sb-disabled {
+    background-color: #c00 !important;
+}
+.ytp-sb-subscribe, .ytp-sb-unsubscribe {
+    border-radius: 24px !important;
+}
+
+/*live chat info card*/
+#card.yt-live-chat-viewer-engagement-message-renderer {
+	border-radius: 24px !important;
+}
+/*griggorii filter text fix*/
+#label.ytd-search-filter-renderer {
+	background: none !important;
+}
+
+   /*griggorii edit orig V14 markers video*/
+.ytp-timed-markers-container {
+    -webkit-transform: scaleY(0.6) !important;
+    transform: scaleY(0.6) !important;
+    top: 1px !important;
+    z-index: 40 !important;
+}
+.ytp-timed-markers-container, .ytp-clip-start-exclude, .ytp-clip-end-exclude {
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-transform-origin: 0 0 !important;
+    transform-origin: 0 0 !important;
+}
+
+   /*griggorii pinned comments in youtube color*/
+ytd-author-comment-badge-renderer {
+    /*--ytd-author-comment-badge-name-color: var(--yt-spec-text-primary);*/
+    /*--ytd-author-comment-badge-name-color: var(--yt-spec-text-primary) !important;*/
+    background-color: #ff0000 !important;
+}
+
+ /* griggorii preview page property */
+#content #contents {
+    /*scrollbar-width: thin;*/
+    /*scrollbar-width: thin !important;*/
+}
+#contents.ytd-rich-grid-renderer {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+}
+Style Attribute {
+    --ytd-rich-grid-items-per-row: 2 !important;
+    --ytd-rich-grid-posts-per-row: 2 !important;
+    --ytd-rich-grid-slim-items-per-row: 4 !important;
+    --ytd-rich-grid-game-cards-per-row: 4 !important;
+}
+
+ /* griggorii copy backend setting V14 rounded ad widget */
+.ytp-exp-ppp-update .ytp-paid-content-overlay-link {
+	border-radius: 24px !important;
+	backdrop-filter: blur(10px) !important;
+	background-color: transparent !important;
+}
+
+/* Notify youtube 🔔 size griggorii fix */
+#contentWrapper > ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] {
+    width: 370px;   }
+}
+
+/* griggorii blur left panel off */
+/* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */
+    /*backdrop-filter: blur(10px) !important;*/
+    /*-webkit-backdrop-filter: blur(10px) !important;*/
+    /*background: rgb(35 35 35 / 0) !important;*/
+    /*overflow: hidden !important;*/
+}
+
+ytd-comments-entry-point-header-renderer:not([modern-metapanel]) {
+}
+
+.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
+    /*background-color: #8e8e8e;*/
+    /*border: 1px solid #424242;*/
+    border-radius: 24px !important;
+}
+
+
+/* griggorii beta theme dark keyboard */
+.vk-box {
+    height: auto !important;
+    background-color: #282829 !important;
+    border: 0px solid #282829 !important;
+    border: 0px solid rgba(0,0,0,0.3) !important;
+    font-family: arial,sans-serif !important;
+    position: fixed !important;
+    box-shadow: 0px 0px rgba(0,0,0,0.2) !important;
+}
+.vk-t {
+    color: #ffffff !important;
+}
+
