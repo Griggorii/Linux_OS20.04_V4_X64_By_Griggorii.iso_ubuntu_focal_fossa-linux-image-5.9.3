@@ -4,7 +4,7 @@ iso , RELEASE , X64 , ubuntu , wayland , fast run , fast perfomance wayland , в
 # ISO DOWNLOAD size 2Gb ubuntu-20.04.2-desktop-amd64.iso: https://drive.google.com/file/d/1-2AWbtRp0aXwGdmgcrJLbMERtcOT_oUs/view?usp=sharing
 Install iso fix update wine32 install: 
 
-$ sudo rm /usr/share/doc/libglib2.0-0/changelog.Debian.gz && sudo apt update && sudo apt install wine32
+$ sudo rm /usr/share/doc/libglib2.0-0/changelog.Debian.gz && sudo apt update && sudo apt install wine32 | and ailternative my 5 years port wine-5.0 https://github.com/Griggorii/Xorg_1.28-Mesa_21.2.6_Ubuntu_20.04/releases/tag/libmesa_dri
 
 Fix users-admin:
 
